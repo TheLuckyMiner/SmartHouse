@@ -1,0 +1,544 @@
+V 14
+2
+LANG:10001 0 
+LANG:10027 0 
+PANEL,-1 -1 794 680 N "_3DFace" 0
+E E E E E 1 -1 -1 0  260 80
+""0  1
+E E 5
+"CBRef" "1"
+"EClose" E
+"dpi" "120"
+"pdpi" "141.585"
+"sizePolicy" "Fixed Fixed"
+0 0 0
+"HouseScheme2.jpg" -1 -1 770 642
+-1
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+2
+LANG:10001 0 
+LANG:10027 0 
+6 8
+"RECTANGLE2"
+""
+1 120 190 E E E 1 E 1 E N {0,0,0} E N "black" E E
+ E E
+7 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 575.4285714285714 68.0555555555554 1 E 120 190 140 230
+7 9
+"ELLIPSE2"
+""
+1 125 175 E E E 1 E 1 E N {0,0,0} E N "Yellow" E E
+ E E
+8 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setBackColor();
+}
+
+void EP_setBackColor()
+{
+  dyn_errClass err;
+
+  if( !dpExists( \"System1:BedroomLamp1.Inputs.Status:_online.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+
+  dpConnect(\"EP_setBackColorCB\",
+            \"System1:BedroomLamp1.Inputs.Status:_online.._value\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+}
+
+void EP_setBackColorCB(string dpSource, bool boNewValue)
+{
+  if (!boNewValue)
+    setValue(\"\", \"backCol\", \"darkgrey\");
+  else
+    setValue(\"\", \"backCol\", \"Yellow\");
+}
+
+// SimpleCtrlScript {EP_setBackColor}
+// DP {System1:BedroomLamp1.Inputs.Status???}
+// DPConfig {:_online.._value}
+// DPType {bool}
+// AlertHdl {FALSE}
+// DPEInvalid {}
+// DPEConfigInvalid {}
+// Operator1 {notequal}
+// Operant1 {0}
+// Color1 {darkgrey}
+// Operator2 {equal}
+// Operant2 {1}
+// Color2 {Yellow}
+// SimpleCtrlScriptEnd {EP_setBackColor}
+" 0
+ E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 578.2857142857143 68.0555555555554 1 E 125 175 35 35
+6 10
+"RECTANGLE3"
+""
+1 120 190 E E E 1 E 1 E N {0,0,0} E N "black" E E
+ E E
+9 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 737.1428571428572 70.27777777777777 1 E 120 190 140 230
+7 11
+"ELLIPSE3"
+""
+1 125 175 E E E 1 E 1 E N {0,0,0} E N "Yellow" E E
+ E E
+10 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setBackColor();
+}
+
+void EP_setBackColor()
+{
+  dyn_errClass err;
+
+  if( !dpExists( \"System1:BedroomLamp2.Inputs.Status:_online.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+
+  dpConnect(\"EP_setBackColorCB\",
+            \"System1:BedroomLamp2.Inputs.Status:_online.._value\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+}
+
+void EP_setBackColorCB(string dpSource, bool boNewValue)
+{
+  if (!boNewValue)
+    setValue(\"\", \"backCol\", \"darkgrey\");
+  else
+    setValue(\"\", \"backCol\", \"Yellow\");
+}
+
+// SimpleCtrlScript {EP_setBackColor}
+// DP {System1:BedroomLamp2.Inputs.Status???}
+// DPConfig {:_online.._value}
+// DPType {bool}
+// AlertHdl {FALSE}
+// DPEInvalid {}
+// DPEConfigInvalid {}
+// Operator1 {notequal}
+// Operant1 {0}
+// Color1 {darkgrey}
+// Operator2 {equal}
+// Operant2 {1}
+// Color2 {Yellow}
+// SimpleCtrlScriptEnd {EP_setBackColor}
+" 0
+ E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 740.0000000000001 70.27777777777777 1 E 125 175 35 35
+6 12
+"RECTANGLE4"
+""
+1 120 190 E E E 1 E 1 E N {0,0,0} E N "black" E E
+ E E
+11 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 749.8571428571429 186.0555555555554 1 E 120 190 140 230
+7 13
+"ELLIPSE4"
+""
+1 125 175 E E E 1 E 1 E N {0,0,0} E N "Yellow" E E
+ E E
+12 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setBackColor();
+}
+
+void EP_setBackColor()
+{
+  dyn_errClass err;
+
+  if( !dpExists( \"System1:BedroomLamp3.Inputs.Status:_online.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+
+  dpConnect(\"EP_setBackColorCB\",
+            \"System1:BedroomLamp3.Inputs.Status:_online.._value\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+}
+
+void EP_setBackColorCB(string dpSource, bool boNewValue)
+{
+  if (!boNewValue)
+    setValue(\"\", \"backCol\", \"darkgrey\");
+  else
+    setValue(\"\", \"backCol\", \"Yellow\");
+}
+
+// SimpleCtrlScript {EP_setBackColor}
+// DP {System1:BedroomLamp3.Inputs.Status???}
+// DPConfig {:_online.._value}
+// DPType {bool}
+// AlertHdl {FALSE}
+// DPEInvalid {}
+// DPEConfigInvalid {}
+// Operator1 {notequal}
+// Operant1 {0}
+// Color1 {darkgrey}
+// Operator2 {equal}
+// Operant2 {1}
+// Color2 {Yellow}
+// SimpleCtrlScriptEnd {EP_setBackColor}
+" 0
+ E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 752.7142857142857 186.0555555555554 1 E 125 175 35 35
+6 14
+"RECTANGLE5"
+""
+1 120 190 E E E 1 E 1 E N {0,0,0} E N "black" E E
+ E E
+13 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 680 453.0555555555555 1 E 120 190 140 230
+7 15
+"ELLIPSE5"
+""
+1 125 175 E E E 1 E 1 E N {0,0,0} E N "Yellow" E E
+ E E
+14 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setBackColor();
+}
+
+void EP_setBackColor()
+{
+  dyn_errClass err;
+
+  if( !dpExists( \"System1:LivingRoomLamp1.Inputs.Status:_online.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+
+  dpConnect(\"EP_setBackColorCB\",
+            \"System1:LivingRoomLamp1.Inputs.Status:_online.._value\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+}
+
+void EP_setBackColorCB(string dpSource, bool boNewValue)
+{
+  if (!boNewValue)
+    setValue(\"\", \"backCol\", \"darkgrey\");
+  else
+    setValue(\"\", \"backCol\", \"Yellow\");
+}
+
+// SimpleCtrlScript {EP_setBackColor}
+// DP {System1:LivingRoomLamp1.Inputs.Status???}
+// DPConfig {:_online.._value}
+// DPType {bool}
+// AlertHdl {FALSE}
+// DPEInvalid {}
+// DPEConfigInvalid {}
+// Operator1 {notequal}
+// Operant1 {0}
+// Color1 {darkgrey}
+// Operator2 {equal}
+// Operant2 {1}
+// Color2 {Yellow}
+// SimpleCtrlScriptEnd {EP_setBackColor}
+" 0
+ E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 682.8571428571428 453.0555555555555 1 E 125 175 35 35
+6 16
+"RECTANGLE6"
+""
+1 120 190 E E E 1 E 1 E N {0,0,0} E N "black" E E
+ E E
+15 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 420.7142857142858 372.5 1 E 120 190 140 230
+7 17
+"ELLIPSE6"
+""
+1 125 175 E E E 1 E 1 E N {0,0,0} E N "Yellow" E E
+ E E
+16 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setBackColor();
+}
+
+void EP_setBackColor()
+{
+  dyn_errClass err;
+
+  if( !dpExists( \"System1:KitchenLamp1.Inputs.Status:_online.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+
+  dpConnect(\"EP_setBackColorCB\",
+            \"System1:KitchenLamp1.Inputs.Status:_online.._value\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+}
+
+void EP_setBackColorCB(string dpSource, bool boNewValue)
+{
+  if (!boNewValue)
+    setValue(\"\", \"backCol\", \"darkgrey\");
+  else
+    setValue(\"\", \"backCol\", \"Yellow\");
+}
+
+// SimpleCtrlScript {EP_setBackColor}
+// DP {System1:KitchenLamp1.Inputs.Status???}
+// DPConfig {:_online.._value}
+// DPType {bool}
+// AlertHdl {FALSE}
+// DPEInvalid {}
+// DPEConfigInvalid {}
+// Operator1 {notequal}
+// Operant1 {0}
+// Color1 {darkgrey}
+// Operator2 {equal}
+// Operant2 {1}
+// Color2 {Yellow}
+// SimpleCtrlScriptEnd {EP_setBackColor}
+" 0
+ E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 423.5714285714286 372.5 1 E 125 175 35 35
+6 18
+"RECTANGLE7"
+""
+1 120 190 E E E 1 E 1 E N {0,0,0} E N "black" E E
+ E E
+17 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 380.7142857142859 80.27777777777763 1 E 120 190 140 230
+7 19
+"ELLIPSE7"
+""
+1 125 175 E E E 1 E 1 E N {0,0,0} E N "Yellow" E E
+ E E
+18 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"// SimpleCtrlScriptStart {invalid}
+main()
+{
+  EP_setBackColor();
+}
+
+void EP_setBackColor()
+{
+  dyn_errClass err;
+
+  if( !dpExists( \"System1:BathroomLamp1.Inputs.Status:_online.._value\"))
+  {
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+    return;
+  }
+
+  dpConnect(\"EP_setBackColorCB\",
+            \"System1:BathroomLamp1.Inputs.Status:_online.._value\");
+  err = getLastError();
+  if (dynlen(err) > 0)
+    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+
+}
+
+void EP_setBackColorCB(string dpSource, bool boNewValue)
+{
+  if (!boNewValue)
+    setValue(\"\", \"backCol\", \"darkgrey\");
+  else
+    setValue(\"\", \"backCol\", \"Yellow\");
+}
+
+// SimpleCtrlScript {EP_setBackColor}
+// DP {System1:BathroomLamp1.Inputs.Status???}
+// DPConfig {:_online.._value}
+// DPType {bool}
+// AlertHdl {FALSE}
+// DPEInvalid {}
+// DPEConfigInvalid {}
+// Operator1 {notequal}
+// Operant1 {0}
+// Color1 {darkgrey}
+// Operator2 {equal}
+// Operant2 {1}
+// Color2 {Yellow}
+// SimpleCtrlScriptEnd {EP_setBackColor}
+" 0
+ E 0 1 3 2 1 E 0.5714285714285714 0 0.6111111111111112 383.5714285714287 80.27777777777763 1 E 125 175 35 35
+0
+LAYER, 1 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 2 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 3 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 4 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 5 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 6 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 7 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+0

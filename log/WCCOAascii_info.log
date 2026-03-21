@@ -1,0 +1,34 @@
+processing file C:\Sybcom\Kaskad\3.18\dplist\update_007.dpl
+DpType (37): Create msg for type _S7ap sent.
+DpType (50): Create msg for type S7testType sent.
+Datapoint/DpId (53): Datapoint (System1:_ACM_Report) with ID 523 already exists, new ID will be generated
+Datapoint/DpId (53): create _SysMgm_DriverS7ap.
+Datapoint/DpId (54): Datapoint test1 already defined with ID 601
+DpValue (59): Values for _SysMgm_DriverS7ap.Title sent.
+DpValue (60): Values for _SysMgm_DriverS7ap.Description sent.
+DpValue (61): Values for _SysMgm_DriverS7ap.Icon sent.
+DpValue (62): Values for _SysMgm_DriverS7ap.Index sent.
+DpValue (63): Values for _SysMgm_DriverS7ap.Items.Titles sent.
+DpValue (64): Values for _SysMgm_DriverS7ap.Items.Descriptions sent.
+DpValue (65): Values for _SysMgm_DriverS7ap.Items.IconsSmall sent.
+DpValue (66): Values for _SysMgm_DriverS7ap.Items.IconsLarge sent.
+DpValue (67): Values for _SysMgm_DriverS7ap.Items.OwnActionScripts sent.
+DpValue (68): Values for _SysMgm_DriverS7ap.Items.Filenames sent.
+DpValue (69): Values for _SysMgm_DriverS7ap.Items.ViewPermissions sent.
+DpValue (70): Values for _SysMgm_DriverS7ap.Items.RunPermissions sent.
+DpValue (71): Values for _SysMgm_DriverS7ap.Items.RunPermissionsOwn sent.
+DpValue (72): Values for test1.int sent.
+DpValue (73): Values for test1.uint sent.
+DpValue (74): Values for test1.char sent.
+DpValue (75): Values for test1.long sent.
+DpValue (76): Values for test1.ulong sent.
+DpValue (77): Values for test1.float sent.
+DpValue (78): Values for test1.bit32 sent.
+DpValue (79): Values for test1.bit64 sent.
+DpValue (80): Values for test1.string sent.
+DpValue (81): Values for test1.time sent.
+DpValue (82): Values for test1.blob sent.
+DpValue (83): Values for test1.bool sent.
+Waiting for last response from eventmanager...
+Scanning of file C:\Sybcom\Kaskad\3.18\dplist\update_007.dpl is finished (55)
+End of Program

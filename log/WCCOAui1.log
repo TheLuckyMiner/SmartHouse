@@ -1,0 +1,12 @@
+WCCOAui      (1), 2026.03.21 13:32:22.302,	Qt,	edit: editing failed
+WCCOAui      (1), 2026.03.21 13:59:29.324,	Qt,	QPixmap::scaled: Pixmap is a null pixmap
+WCCOAui      (1), 2026.03.21 13:59:29.542,	Qt,	QPixmap::scaled: Pixmap is a null pixmap
+WCCOAui      (1), 2026.03.21 14:01:37.028,	Qt,	QImage::scaled: Image is a null image
+WCCOAui      (1), 2026.03.21 14:31:29.685,	Qt,	QBasicTimer::stop: Failed. Possibly trying to stop from a different thread
+WCCOAui      (1), 2026.03.21 14:31:29.685,	Qt,	QBasicTimer::stop: Failed. Possibly trying to stop from a different thread
+WCCOAui      (1), 2026.03.21 14:31:29.685,	Qt,	QBasicTimer::stop: Failed. Possibly trying to stop from a different thread
+WCCOAui      (1), 2026.03.21 14:31:29.685,	Qt,	QBasicTimer::stop: Failed. Possibly trying to stop from a different thread
+WCCOAui      (1), 2026.03.21 14:31:29.686,	Qt,	QBasicTimer::stop: Failed. Possibly trying to stop from a different thread
+WCCOAui      (1), 2026.03.21 14:31:29.686,	Qt,	QBasicTimer::stop: Failed. Possibly trying to stop from a different thread
+WCCOAui      (1), 2026.03.21 14:31:29.686,	Qt,	QBasicTimer::stop: Failed. Possibly trying to stop from a different thread
+WCCOAui      (1), 2026.03.21 14:31:29.866,	Qt,	QObject::~QObject: Timers cannot be stopped from another thread

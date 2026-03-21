@@ -1,0 +1,106 @@
+V 14
+2
+LANG:10001 0 
+LANG:10027 0 
+PANEL,-1 -1 1120 800 N "_3DFace" 0
+E E E E E 1 -1 -1 0  300 130
+""0  1
+E E 4
+"CBRef" "1"
+"EClose" E
+"dpi" "120"
+"pdpi" "141.585"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+2
+LANG:10001 0 
+LANG:10027 0 
+2 1
+"PRIMITIVE_TEXT1"
+""
+1 300 130 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+0 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 32 0 1 -9300 0 0 E 300 130 310 130
+0 2 2 "0s" 0 0 0 64 0 0  300 130 1
+2
+LANG:10001 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+0 2
+LANG:10001 2 IT
+LANG:10027 3 KIT
+2 2
+"PRIMITIVE_TEXT2"
+""
+1 180 300 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+1 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 180 300 263 323
+0 2 2 "0s" 0 0 0 192 0 0  180 300 1
+2
+LANG:10001 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,12,-1,5,50,0,0,0,0,0
+0 2
+LANG:10001 7 KITCHEN
+LANG:10027 7 KITCHEN
+0
+LAYER, 1 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 2 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 3 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 4 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 5 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 6 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 7 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+0

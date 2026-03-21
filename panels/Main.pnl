@@ -1,0 +1,235 @@
+V 14
+2
+LANG:10001 0 
+LANG:10027 0 
+PANEL,-1 -1 1120 800 N "_3DFace" 0
+E E E E E 1 -1 -1 0  240 40
+""0  1
+E E 4
+"CBRef" "1"
+"EClose" E
+"dpi" "120"
+"pdpi" "141.585"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+2
+LANG:10001 0 
+LANG:10027 0 
+29 2
+"EMBEDDED_MODULE1"
+""
+1 120.5 130.2500000000001 E E E 1 E 1 E N "_3DText" E N "_3DFace" E E
+ E E
+1 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+10
+"newPanelAnimDuration" "int 0"
+"oldPanelAnimDuration" "int 0"
+"newPanelAnimateOpacity" "bool TRUE"
+"oldPanelAnimateOpacity" "bool TRUE"
+"newPanelAnimateSize" "bool TRUE"
+"oldPanelAnimateSize" "bool TRUE"
+"newPanelAnimType" "string TopLeft"
+"oldPanelAnimType" "string BottomRight"
+"ModuleName" "string Module"
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  59.99999999999999 117.25 1179 797.25
+15 Canvas.Canvas.1
+0
+"main(mapping event)
+{
+  dyn_string MyParams;
+  RootPanelOnModule(\"House.pnl\", \"House\", \"Module\", MyParams);
+}" 0
+13 3
+"PUSH_BUTTON1"
+""
+1 260 60 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+2 0 0 0 0 0
+E E E
+8
+2
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  258 44 442 98
+
+T 
+2
+LANG:10001 7 Kitchen
+LANG:10027 12 PUSH_BUTTON1
+"main(mapping event)
+{
+  dyn_string MyParams;
+  RootPanelOnModule(\"Kitchen.pnl\", \"Kitchen\", \"Module\", MyParams);
+}" 0
+ E E E
+13 4
+"PUSH_BUTTON3"
+""
+1 466.0000000000001 60 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+3 0 0 0 0 0
+E E E
+8
+2
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  464.0000000000001 44 648.0000000000001 98
+
+T 
+2
+LANG:10001 11 Living Room
+LANG:10027 12 PUSH_BUTTON1
+"main(mapping event)
+{
+  dyn_string MyParams;
+  RootPanelOnModule(\"Living Room.pnl\", \"Living Room\", \"Module\", MyParams);
+}" 0
+ E E E
+13 5
+"PUSH_BUTTON4"
+""
+1 675.0000000000002 60.0625 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+4 0 0 0 0 0
+E E E
+8
+2
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  673.0000000000002 44.0625 857.0000000000002 98.0625
+
+T 
+2
+LANG:10001 7 Bedroom
+LANG:10027 12 PUSH_BUTTON1
+"main(mapping event)
+{
+  dyn_string MyParams;
+  RootPanelOnModule(\"Bedroom.pnl\", \"Bedroom\", \"Module\", MyParams);
+}" 0
+ E E E
+13 6
+"PUSH_BUTTON5"
+""
+1 879.7142857142859 60 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+5 0 0 0 0 0
+E E E
+8
+2
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  877.7142857142859 44 1061.714285714286 98
+
+T 
+2
+LANG:10001 8 Bathroom
+LANG:10027 12 PUSH_BUTTON1
+"main(mapping event)
+{
+  dyn_string MyParams;
+  RootPanelOnModule(\"Bathroom.pnl\", \"Bathroom\", \"Module\", MyParams);
+}" 0
+ E E E
+13 7
+"PUSH_BUTTON6"
+""
+1 60 60 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+6 0 0 0 0 0
+E E E
+8
+2
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  58 44 242 98
+
+T 
+2
+LANG:10001 5 House
+LANG:10027 12 PUSH_BUTTON1
+"main(mapping event)
+{
+  dyn_string MyParams;
+  RootPanelOnModule(\"House.pnl\", \"House\", \"Module\", MyParams);
+}" 0
+ E E E
+0
+LAYER, 1 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 2 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 3 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 4 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 5 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 6 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 7 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+0
