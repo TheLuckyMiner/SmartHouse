@@ -2840,3 +2840,547 @@ WCCILproxy   (1), 2026.03.22 11:04:42.401, SYS,  INFO,      170, Signal SIGTERM 
 WCCILproxy   (1), 2026.03.22 11:04:42.653, SYS,  INFO,      221, Multiplexing proxy Stop
 WCCILpmon    (1), 2026.03.22 11:04:42.731, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
 WCCILpmon    (1), 2026.03.22 11:04:42.734, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 11:35:50.197, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.22 11:35:50.313, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILdata    (0), 2026.03.22 11:35:50.355, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILdata    (0), 2026.03.22 11:35:50.358, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2026.03.22 11:35:51.364, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2026.03.22 11:35:51.364, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2026.03.22 11:35:51.365, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.22 11:35:51.380, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2026.03.22 11:35:51.397, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2026.03.22 11:35:51.397, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2026.03.22 11:35:51.398, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2026.03.22 11:35:51.399, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2026.03.22 11:35:51.400, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 11:35:51.413, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2026.03.22 11:35:51.415, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2026.03.22 11:35:51.423, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2026.03.22 11:35:51.471, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (0), 2026.03.22 11:35:51.483, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2026.03.22 11:35:51.488, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:51.489, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 2 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:51.490, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2026.03.22 11:35:51.499, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 11:35:51.644, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2026.03.22 11:35:51.680, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (1), 2026.03.22 11:35:51.692, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2026.03.22 11:35:51.693, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:51.694, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 3 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:51.695, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2026.03.22 11:35:51.705, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 11:35:51.865, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2026.03.22 11:35:51.902, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (2), 2026.03.22 11:35:51.915, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2026.03.22 11:35:51.915, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:51.917, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 4 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:51.918, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2026.03.22 11:35:51.918, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 11:35:52.084, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2026.03.22 11:35:52.121, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (3), 2026.03.22 11:35:52.132, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2026.03.22 11:35:52.133, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:52.134, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 5 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:52.135, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2026.03.22 11:35:52.146, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 11:35:52.303, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2026.03.22 11:35:52.340, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (4), 2026.03.22 11:35:52.350, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2026.03.22 11:35:52.352, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:52.352, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 6 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:52.353, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2026.03.22 11:35:52.364, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 11:35:52.521, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2026.03.22 11:35:52.560, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (5), 2026.03.22 11:35:52.570, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2026.03.22 11:35:52.572, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:52.573, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 7 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:52.574, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2026.03.22 11:35:52.574, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2026.03.22 11:35:54.512, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 11:35:54.543, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2026.03.22 11:35:54.715, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 11:35:54.745, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2026.03.22 11:35:54.947, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 11:35:54.979, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2026.03.22 11:35:55.167, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 11:35:55.182, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (4), 2026.03.22 11:35:55.369, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 11:35:55.400, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2026.03.22 11:35:55.525, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2026.03.22 11:35:55.589, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 11:35:55.604, SYS,  INFO,        0, , Sending initial values to archive
+WCCILpmon    (1), 2026.03.22 11:35:55.683, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILevent   (0), 2026.03.22 11:35:55.722, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (1), 2026.03.22 11:35:55.728, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2026.03.22 11:35:55.742, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2026.03.22 11:35:55.744, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:55.745, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:35:55.815, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2026.03.22 11:35:55.815, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2026.03.22 11:35:55.816, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2026.03.22 11:35:55.829, SYS,  INFO,      168, Initialize 130 alerts
+WCCILevent   (0), 2026.03.22 11:35:55.840, SYS,  INFO,      103, User names/passwords initialized
+WCCILdata    (0), 2026.03.22 11:35:55.844, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2026.03.22 11:35:55.902, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ SmartHouse -pmonIndex 9 
+WCCOAvalarch (2), 2026.03.22 11:35:55.962, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (3), 2026.03.22 11:35:56.174, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2026.03.22 11:35:56.377, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2026.03.22 11:35:56.596, SYS,  INFO,        0, , Ready for operation.
+WCCILproxy   (1), 2026.03.22 11:36:06.397, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILproxy   (1), 2026.03.22 11:36:06.400, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2026.03.22 11:36:06.571, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 10 -f pvss_scripts.lst
+WCCOActrl    (0), 2026.03.22 11:36:06.611, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (0), 2026.03.22 11:36:06.613, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (0), 2026.03.22 11:36:06.618, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:36:06.619, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:36:06.621, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2026.03.22 11:36:06.622, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2026.03.22 11:36:06.622, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2026.03.22 11:36:06.623, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILevent   (0), 2026.03.22 11:36:06.623, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCOActrl    (1), 2026.03.22 11:36:06.624, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2026.03.22 11:36:06.625, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (1), 2026.03.22 11:36:06.625, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.22 11:36:06.745, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 11 
+WCCILsim     (1), 2026.03.22 11:36:06.785, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILsim     (1), 2026.03.22 11:36:06.787, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2026.03.22 11:36:06.789, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:36:06.789, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:36:06.793, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2026.03.22 11:36:06.793, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2026.03.22 11:36:06.794, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2026.03.22 11:36:06.794, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILevent   (0), 2026.03.22 11:36:06.795, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILsim     (1), 2026.03.22 11:36:06.796, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2026.03.22 11:36:06.963, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 12 -m gedi
+WCCOAui      (0), 2026.03.22 11:36:07.370, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (1), 2026.03.22 11:36:07.787, CTRL, INFO,        0, , DB Version Update, 3.18 DB version 7, nothing to do
+WCCOAui      (0), 2026.03.22 11:36:09.530, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2026.03.22 11:36:09.532, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:36:09.532, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:36:09.547, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2026.03.22 11:36:09.547, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2026.03.22 11:36:09.547, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2026.03.22 11:36:09.548, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILevent   (0), 2026.03.22 11:36:09.549, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCOAui      (1), 2026.03.22 11:36:09.549, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2026.03.22 11:36:09.550, SYS,  INFO,      103, User names/passwords initialized
+WCCOAui      (1), 2026.03.22 11:36:09.557, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.22 11:36:09.643, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCOActrl    (2), 2026.03.22 11:36:09.686, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (2), 2026.03.22 11:36:09.688, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2026.03.22 11:36:09.690, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:36:09.690, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:36:09.693, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2026.03.22 11:36:09.694, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2026.03.22 11:36:09.694, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2026.03.22 11:36:09.694, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILevent   (0), 2026.03.22 11:36:09.695, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCOActrl    (2), 2026.03.22 11:36:09.696, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2026.03.22 11:36:09.697, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (2), 2026.03.22 11:36:09.698, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.22 11:36:09.860, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILevent   (0), 2026.03.22 11:36:18.836, SYS,  WARNING,     0, , Demo period started 30 minutes
+WCCOAui      (1), 2026.03.22 11:36:27.033, SYS,  WARNING,     0, , Para. Demo period started 30 minutes
+WCCOActrl    (1), 2026.03.22 11:36:37.979, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2026.03.22 11:37:09.718, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2026.03.22 11:37:09.718, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.22 11:37:09.720, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2026.03.22 11:37:09.720, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2026.03.22 11:37:09.720, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2026.03.22 11:37:10.720, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2026.03.22 11:37:10.721, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2026.03.22 11:37:10.721, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2026.03.22 11:37:10.721, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2026.03.22 11:37:10.722, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2026.03.22 11:37:10.722, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2026.03.22 11:37:10.765, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILdatabg  (1), 2026.03.22 11:37:10.767, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2026.03.22 11:37:10.771, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:37:10.772, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 11:37:10.778, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2026.03.22 11:37:11.279, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2026.03.22 11:37:11.279, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2026.03.22 11:39:08.496, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (1), 2026.03.22 11:39:08.496, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:08.496, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.22 11:39:08.497, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 11:39:08.497, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.22 11:39:08.497, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.22 11:39:08.574, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 11:39:17.790, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.22 11:39:17.790, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCOActrl    (2), 2026.03.22 11:39:17.791, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 11:39:17.791, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2026.03.22 11:39:17.791, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 11:39:17.791, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCOActrl    (1), 2026.03.22 11:39:17.791, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 11:39:17.791, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCOAvalarch (5), 2026.03.22 11:39:17.792, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 11:39:17.792, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (4), 2026.03.22 11:39:17.792, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 11:39:17.792, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCOAvalarch (3), 2026.03.22 11:39:17.793, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 11:39:17.793, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (2), 2026.03.22 11:39:17.793, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 11:39:17.793, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2026.03.22 11:39:17.794, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 11:39:17.794, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2026.03.22 11:39:17.794, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2026.03.22 11:39:17.837, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2026.03.22 11:39:17.837, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:17.837, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 11:39:17.837, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.22 11:39:17.837, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.22 11:39:17.837, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.22 11:39:17.838, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2026.03.22 11:39:17.839, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2026.03.22 11:39:17.839, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+onnection closed
+WCCOActrl    (1), 2026.03.22 11:39:17.839, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 11:39:17.839, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.22 11:39:17.840, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.22 11:39:17.840, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2026.03.22 11:39:17.862, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (2), 2026.03.22 11:39:18.496, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (2), 2026.03.22 11:39:18.496, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:18.496, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 11:39:18.496, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.22 11:39:18.496, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.22 11:39:18.497, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.22 11:39:18.497, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2026.03.22 11:39:18.504, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (2), 2026.03.22 11:39:21.845, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:21.845, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCOAvalarch (2), 2026.03.22 11:39:21.846, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.22 11:39:21.846, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:2
+WCCOAvalarch (2), 2026.03.22 11:39:21.846, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (2), 2026.03.22 11:39:21.847, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (1), 2026.03.22 11:39:21.847, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:21.848, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.22 11:39:21.848, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2026.03.22 11:39:21.848, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (1), 2026.03.22 11:39:21.848, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (1), 2026.03.22 11:39:21.848, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (4), 2026.03.22 11:39:21.849, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:21.849, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCOAvalarch (4), 2026.03.22 11:39:21.849, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (4), 2026.03.22 11:39:21.849, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2026.03.22 11:39:21.850, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (5), 2026.03.22 11:39:21.850, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:21.850, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCOAvalarch (5), 2026.03.22 11:39:21.851, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.22 11:39:21.851, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:5
+WCCOAvalarch (5), 2026.03.22 11:39:21.851, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2026.03.22 11:39:21.851, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (3), 2026.03.22 11:39:21.851, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:21.852, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCOAvalarch (3), 2026.03.22 11:39:21.852, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (3), 2026.03.22 11:39:21.852, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2026.03.22 11:39:21.853, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (0), 2026.03.22 11:39:21.853, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:21.853, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.22 11:39:21.853, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:0
+WCCOAvalarch (0), 2026.03.22 11:39:21.853, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (0), 2026.03.22 11:39:21.854, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2026.03.22 11:39:21.854, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 11:39:21.944, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2026.03.22 11:39:21.944, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2026.03.22 11:39:21.960, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2026.03.22 11:39:21.960, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 11:39:21.960, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 11:39:21.960, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 11:39:21.968, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 11:39:22.054, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2026.03.22 11:39:22.974, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2026.03.22 11:39:22.974, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2026.03.22 11:39:22.974, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2026.03.22 11:39:22.974, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2026.03.22 11:39:22.974, SYS,  SEVERE,     39, Connection lost, (SYS: 1 Data -num 0 CONN: 1), exiting ...
+on closed
+WCCILdata    (0), 2026.03.22 11:39:22.974, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2026.03.22 11:39:22.975, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2026.03.22 11:39:22.975, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2026.03.22 11:39:22.975, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2026.03.22 11:39:23.988, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.22 11:39:24.002, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 11:39:24.083, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2026.03.22 11:39:24.083, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2026.03.22 11:39:25.052, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2026.03.22 11:39:25.068, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.22 11:39:25.068, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 12:29:14.501, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.22 12:29:14.628, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILdata    (0), 2026.03.22 12:29:14.668, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILdata    (0), 2026.03.22 12:29:14.671, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2026.03.22 12:29:15.682, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2026.03.22 12:29:15.682, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2026.03.22 12:29:15.683, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.22 12:29:15.698, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2026.03.22 12:29:15.715, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2026.03.22 12:29:15.715, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2026.03.22 12:29:15.716, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2026.03.22 12:29:15.716, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2026.03.22 12:29:15.718, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 12:29:15.732, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2026.03.22 12:29:15.733, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2026.03.22 12:29:15.833, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2026.03.22 12:29:15.879, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (0), 2026.03.22 12:29:15.892, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2026.03.22 12:29:15.897, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:15.898, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 2 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:15.899, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2026.03.22 12:29:15.909, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 12:29:16.052, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2026.03.22 12:29:16.092, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (1), 2026.03.22 12:29:16.104, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2026.03.22 12:29:16.106, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.106, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 3 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.108, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2026.03.22 12:29:16.112, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 12:29:16.271, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2026.03.22 12:29:16.308, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (2), 2026.03.22 12:29:16.323, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2026.03.22 12:29:16.324, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.325, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 4 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.326, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2026.03.22 12:29:16.326, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 12:29:16.490, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2026.03.22 12:29:16.526, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (3), 2026.03.22 12:29:16.538, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2026.03.22 12:29:16.540, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.540, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 5 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.541, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2026.03.22 12:29:16.549, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 12:29:16.709, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2026.03.22 12:29:16.746, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (4), 2026.03.22 12:29:16.759, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2026.03.22 12:29:16.760, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.760, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 6 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.761, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2026.03.22 12:29:16.771, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.22 12:29:16.868, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2026.03.22 12:29:16.906, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (5), 2026.03.22 12:29:16.918, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2026.03.22 12:29:16.919, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.920, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 7 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:16.921, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2026.03.22 12:29:16.921, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2026.03.22 12:29:18.914, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 12:29:18.946, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2026.03.22 12:29:19.134, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 12:29:19.150, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2026.03.22 12:29:19.356, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 12:29:19.387, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2026.03.22 12:29:19.574, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 12:29:19.590, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (4), 2026.03.22 12:29:19.780, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 12:29:19.811, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2026.03.22 12:29:19.924, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2026.03.22 12:29:19.936, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.22 12:29:19.951, SYS,  INFO,        0, , Sending initial values to archive
+WCCILpmon    (1), 2026.03.22 12:29:19.984, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILevent   (0), 2026.03.22 12:29:20.024, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILevent   (0), 2026.03.22 12:29:20.045, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2026.03.22 12:29:20.046, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:20.046, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:20.122, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2026.03.22 12:29:20.122, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2026.03.22 12:29:20.123, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2026.03.22 12:29:20.135, SYS,  INFO,      168, Initialize 130 alerts
+WCCOAvalarch (1), 2026.03.22 12:29:20.141, SYS,  INFO,        0, , Ready for operation.
+WCCILevent   (0), 2026.03.22 12:29:20.146, SYS,  INFO,      103, User names/passwords initialized
+WCCILdata    (0), 2026.03.22 12:29:20.149, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2026.03.22 12:29:20.203, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ SmartHouse -pmonIndex 9 
+WCCOAvalarch (2), 2026.03.22 12:29:20.369, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (3), 2026.03.22 12:29:20.587, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2026.03.22 12:29:20.792, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2026.03.22 12:29:20.950, SYS,  INFO,        0, , Ready for operation.
+WCCILproxy   (1), 2026.03.22 12:29:32.412, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILproxy   (1), 2026.03.22 12:29:32.415, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2026.03.22 12:29:32.540, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 10 -f pvss_scripts.lst
+WCCOActrl    (0), 2026.03.22 12:29:32.579, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (0), 2026.03.22 12:29:32.582, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (0), 2026.03.22 12:29:32.583, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:32.584, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:32.601, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2026.03.22 12:29:32.601, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2026.03.22 12:29:32.602, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2026.03.22 12:29:32.602, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILevent   (0), 2026.03.22 12:29:32.603, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCOActrl    (1), 2026.03.22 12:29:32.604, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2026.03.22 12:29:32.604, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (1), 2026.03.22 12:29:32.605, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.22 12:29:32.758, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 11 
+WCCILsim     (1), 2026.03.22 12:29:32.799, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILsim     (1), 2026.03.22 12:29:32.800, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2026.03.22 12:29:32.802, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:32.803, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:32.834, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2026.03.22 12:29:32.834, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2026.03.22 12:29:32.834, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2026.03.22 12:29:32.835, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILevent   (0), 2026.03.22 12:29:32.836, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILsim     (1), 2026.03.22 12:29:32.837, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2026.03.22 12:29:32.979, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 12 -m gedi
+WCCOAui      (0), 2026.03.22 12:29:33.393, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (1), 2026.03.22 12:29:33.762, CTRL, INFO,        0, , DB Version Update, 3.18 DB version 7, nothing to do
+WCCOAui      (0), 2026.03.22 12:29:35.442, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2026.03.22 12:29:35.443, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:35.444, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:35.447, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2026.03.22 12:29:35.449, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2026.03.22 12:29:35.449, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2026.03.22 12:29:35.449, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILevent   (0), 2026.03.22 12:29:35.450, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCOAui      (1), 2026.03.22 12:29:35.451, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2026.03.22 12:29:35.452, SYS,  INFO,      103, User names/passwords initialized
+WCCOAui      (1), 2026.03.22 12:29:35.457, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.22 12:29:35.509, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCOActrl    (2), 2026.03.22 12:29:35.549, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (2), 2026.03.22 12:29:35.552, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2026.03.22 12:29:35.553, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:35.554, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:29:35.557, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2026.03.22 12:29:35.558, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2026.03.22 12:29:35.558, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2026.03.22 12:29:35.558, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILevent   (0), 2026.03.22 12:29:35.559, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCOActrl    (2), 2026.03.22 12:29:35.559, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2026.03.22 12:29:35.560, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (2), 2026.03.22 12:29:35.561, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.22 12:29:35.726, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILevent   (0), 2026.03.22 12:29:43.290, SYS,  WARNING,     0, , Demo period started 30 minutes
+WCCOAui      (1), 2026.03.22 12:29:51.527, SYS,  WARNING,     0, , Para. Demo period started 30 minutes
+WCCOActrl    (1), 2026.03.22 12:30:03.886, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILdata    (0), 2026.03.22 12:30:35.599, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2026.03.22 12:30:35.600, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.22 12:30:35.602, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2026.03.22 12:30:35.602, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2026.03.22 12:30:35.602, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2026.03.22 12:30:36.598, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2026.03.22 12:30:36.599, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2026.03.22 12:30:36.599, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2026.03.22 12:30:36.599, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2026.03.22 12:30:36.599, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2026.03.22 12:30:36.599, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2026.03.22 12:30:36.651, SYS,  INFO,        1, Manager Start, PROJ, SmartHouse, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILdatabg  (1), 2026.03.22 12:30:36.653, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2026.03.22 12:30:36.658, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:30:36.658, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 1 CONN: 1) @ DESKTOP-PHAIL3K (::1)
+WCCILdata    (0), 2026.03.22 12:30:36.673, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2026.03.22 12:30:37.172, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2026.03.22 12:30:37.172, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2026.03.22 12:41:14.488, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.22 12:41:14.488, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCOActrl    (2), 2026.03.22 12:41:14.489, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 12:41:14.488, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCOAui      (1), 2026.03.22 12:41:14.489, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 12:41:14.489, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2026.03.22 12:41:14.489, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 12:41:14.489, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCOActrl    (1), 2026.03.22 12:41:14.490, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 12:41:14.490, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCOAvalarch (5), 2026.03.22 12:41:14.490, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 12:41:14.490, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (4), 2026.03.22 12:41:14.491, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 12:41:14.491, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCOAvalarch (3), 2026.03.22 12:41:14.491, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 12:41:14.491, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (2), 2026.03.22 12:41:14.492, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 12:41:14.492, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2026.03.22 12:41:14.492, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.22 12:41:14.492, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2026.03.22 12:41:14.492, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2026.03.22 12:41:14.535, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2026.03.22 12:41:14.535, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:14.535, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.22 12:41:14.535, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 12:41:14.535, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.22 12:41:14.536, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.22 12:41:14.536, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2026.03.22 12:41:14.537, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:14.537, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.22 12:41:14.537, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCOActrl    (1), 2026.03.22 12:41:14.538, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 12:41:14.538, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.22 12:41:14.538, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.22 12:41:14.538, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2026.03.22 12:41:14.561, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2026.03.22 12:41:14.578, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (1), 2026.03.22 12:41:14.578, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:14.578, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 12:41:14.578, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.22 12:41:14.578, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.22 12:41:14.578, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.22 12:41:14.629, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (2), 2026.03.22 12:41:15.221, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (2), 2026.03.22 12:41:15.221, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+onnection closed
+WCCOActrl    (2), 2026.03.22 12:41:15.221, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 12:41:15.222, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.22 12:41:15.222, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.22 12:41:15.222, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2026.03.22 12:41:15.229, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (4), 2026.03.22 12:41:18.553, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:18.553, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCOAvalarch (4), 2026.03.22 12:41:18.553, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.22 12:41:18.553, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:4
+WCCOAvalarch (4), 2026.03.22 12:41:18.553, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (4), 2026.03.22 12:41:18.553, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (3), 2026.03.22 12:41:18.568, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:18.568, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCOAvalarch (3), 2026.03.22 12:41:18.569, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (3), 2026.03.22 12:41:18.569, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2026.03.22 12:41:18.569, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (5), 2026.03.22 12:41:18.569, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:18.570, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.22 12:41:18.570, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:5
+WCCOAvalarch (5), 2026.03.22 12:41:18.570, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2026.03.22 12:41:18.571, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (2), 2026.03.22 12:41:18.572, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:18.572, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.22 12:41:18.572, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:2
+WCCOAvalarch (2), 2026.03.22 12:41:18.572, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (2), 2026.03.22 12:41:18.572, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (1), 2026.03.22 12:41:18.574, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:18.574, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCOAvalarch (1), 2026.03.22 12:41:18.574, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.22 12:41:18.574, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2026.03.22 12:41:18.574, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (1), 2026.03.22 12:41:18.575, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (0), 2026.03.22 12:41:18.575, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:18.575, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCOAvalarch (0), 2026.03.22 12:41:18.576, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (0), 2026.03.22 12:41:18.576, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2026.03.22 12:41:18.576, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 12:41:18.656, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2026.03.22 12:41:18.656, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2026.03.22 12:41:18.688, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2026.03.22 12:41:18.688, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.22 12:41:18.688, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 12:41:18.688, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.22 12:41:18.698, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 12:41:18.767, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2026.03.22 12:41:19.699, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2026.03.22 12:41:19.699, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2026.03.22 12:41:19.699, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2026.03.22 12:41:19.699, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2026.03.22 12:41:19.700, SYS,  SEVERE,     39, Connection lost, (SYS: 1 Data -num 0 CONN: 1), exiting ...
+WCCILdata    (0), 2026.03.22 12:41:19.700, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 1 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.22 12:41:19.700, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2026.03.22 12:41:19.700, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2026.03.22 12:41:19.700, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2026.03.22 12:41:19.700, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2026.03.22 12:41:20.713, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.22 12:41:20.726, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 12:41:20.792, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2026.03.22 12:41:20.792, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2026.03.22 12:41:20.870, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2026.03.22 12:41:20.902, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.22 12:41:20.902, SYS,  INFO,        2, Manager Stop
