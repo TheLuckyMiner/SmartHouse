@@ -1,0 +1,199 @@
+WCCILpmon    (1), 2026.03.22 09:48:55.890, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.22 09:48:56.007, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 09:49:24.088, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 09:49:24.308, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 09:49:24.526, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 09:49:24.683, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 09:49:24.902, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 09:49:25.121, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 09:49:28.244, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 09:49:28.463, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ SmartHouse -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 09:49:39.306, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 09:49:39.547, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 09:49:39.773, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 09:49:45.939, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 09:49:46.155, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 09:52:24.974, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 09:52:24.974, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 09:52:25.084, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 09:52:25.086, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 09:52:32.049, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 09:52:32.049, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 09:52:32.164, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 09:52:32.166, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 09:52:50.108, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 09:52:50.109, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 09:52:50.218, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 09:52:55.366, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 09:52:55.369, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:09:21.413, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:09:21.413, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:09:21.516, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 10:09:21.518, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:09:28.502, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:09:28.502, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:09:28.606, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 10:09:28.608, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:09:34.674, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:09:34.674, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:09:34.787, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 10:09:38.688, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:09:38.690, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:14:46.942, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:14:46.942, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:14:47.045, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 10:14:47.047, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:15:24.428, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:15:24.428, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:15:24.531, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 10:15:24.533, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:15:50.872, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:15:50.872, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:15:50.987, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 10:15:54.403, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:15:54.406, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:19:39.562, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 10:19:39.671, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:19:39.671, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:19:39.672, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:19:39.672, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:19:39.673, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:19:39.673, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:19:39.673, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:19:43.832, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:19:45.861, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:19:46.299, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 10:19:46.410, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 10:19:47.555, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 10:19:47.773, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 10:19:47.990, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 10:19:48.212, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 10:19:48.430, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 10:19:48.584, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 10:19:51.708, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 10:19:51.923, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ SmartHouse -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 10:20:02.613, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 10:20:02.880, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 10:20:03.099, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 10:20:04.906, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:20:05.125, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 10:23:43.433, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:23:43.433, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:23:43.544, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 10:23:43.546, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:23:49.679, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:23:49.679, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:23:49.786, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 10:23:49.788, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:23:54.830, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:23:54.830, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:23:54.943, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 10:23:58.652, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:23:58.654, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:28:04.496, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:28:04.496, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:28:04.605, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 10:28:04.607, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:28:09.440, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:28:09.440, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:28:09.557, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 10:28:09.559, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:28:13.394, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:28:13.394, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:28:13.497, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 10:28:17.256, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:28:17.258, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:47:45.555, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:47:45.556, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:47:45.670, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 10:47:45.672, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:47:45.889, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 10:47:45.891, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 Simulate.ctl
+WCCILpmon    (1), 2026.03.22 10:47:46.110, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 10:48:10.892, SYS,  INFO,       29/pmon, Got PROP_PUT command from ::1, changing manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:48:11.959, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:48:11.962, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 10:49:50.047, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:49:50.047, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:49:50.154, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 10:49:50.156, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 10:50:16.012, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 10:50:16.120, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:50:16.120, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:50:16.121, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:50:16.121, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:50:16.122, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:50:16.122, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:50:16.123, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:50:20.281, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:50:22.228, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 10:50:22.495, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 10:50:22.604, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 10:50:23.803, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 10:50:24.022, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 10:50:24.238, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 10:50:24.458, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 10:50:24.631, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 10:50:24.848, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 10:50:28.073, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 10:50:28.291, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ SmartHouse -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 10:50:39.030, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 10:50:39.252, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 10:50:39.472, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 10:50:53.555, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 10:50:53.772, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 10:51:16.259, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:51:16.259, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:51:16.365, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 10:51:16.367, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 10:51:18.893, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:51:18.893, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:51:18.998, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 10:51:19.000, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 10:51:23.898, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:51:23.898, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:51:24.012, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 10:51:40.977, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:51:40.979, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 10:59:08.155, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:59:08.155, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:59:08.266, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 10:59:08.268, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 10:59:16.555, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:59:16.555, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:59:16.657, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 10:59:16.659, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 10:59:22.594, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:59:22.594, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 10:59:22.710, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 10:59:31.686, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 10:59:31.689, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 11:00:27.629, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 11:00:27.629, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 11:00:27.745, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 11:00:27.747, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 11:00:32.867, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 11:00:32.867, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 11:00:32.981, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 11:00:32.983, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 11:00:39.658, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 11:00:39.658, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 11:00:39.770, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 11:00:52.082, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.22 11:00:52.085, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.22 11:04:36.109, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.22 11:04:36.109, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:36.109, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:36.110, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:36.110, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:36.111, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:36.111, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:36.112, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:36.112, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:36.113, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:36.113, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:40.263, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:40.373, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:42.401, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 11:04:42.731, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.22 11:04:42.734, SYS,  INFO,        2, Manager Stop

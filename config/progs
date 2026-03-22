@@ -15,4 +15,4 @@ WCCILproxy       | always |      30 |        2 |        2 |
 WCCOActrl        | always |      30 |        3 |        1 |-f pvss_scripts.lst
 WCCILsim         | always |      30 |        3 |        1 |
 WCCOAui          |   once |      30 |        3 |        1 |-m gedi
-WCCOActrl        | always |      30 |        2 |        2 |-num 2 Simulate.ctl
+WCCOActrl        | always |      30 |        2 |        2 |-num 2 -f Simulate.lst
