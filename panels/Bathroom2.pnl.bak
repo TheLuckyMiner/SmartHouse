@@ -1,0 +1,108 @@
+V 14
+2
+LANG:10001 0 
+LANG:10027 0 
+PANEL,-1 -1 1120 800 N "_3DFace" 0
+E E E E E 1 -1 -1 0  740 120
+""0  1
+E E 5
+"CBRef" "1"
+"EClose" E
+"dpi" "120"
+"pdpi" "141.585"
+"sizePolicy" "Fixed Fixed"
+0 0 0
+"Bathroom.png" 10 212 1100 377
+-1
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+2
+LANG:10001 0 
+LANG:10027 0 
+1 1 0 "" 1
+0
+1 3 1 "" 1
+0
+4 4
+"LINE1"
+""
+1 1030 300 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+2 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1030 300 1030 330
+4 5
+"LINE2"
+""
+1 1030 330 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+3 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1030 330 933 330
+0
+LAYER, 1 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 2 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 3 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 4 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 5 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 6 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 7 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+3 0 "PANEL_REF1" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/Lamp.pnl" 740 120 T 0 1 0 1 1.5 -24.5
+1
+"$dp""BathroomLamp1"
+3 1 "PANEL_REF2" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/LightSwitch.pnl" 1010 230 T 1 U 
+1
+"$dp""BathroomLamp1"
+0

@@ -2,7 +2,7 @@ V 14
 2
 LANG:10001 0 
 LANG:10027 0 
-PANEL,-1 -1 1120 800 N "_3DFace" 0
+PANEL,-1 -1 1134 908 N "_3DFace" 0
 E E E E E 1 -1 -1 0  240 40
 ""0  1
 E E 4
@@ -20,7 +20,7 @@ LANG:10027 0
 29 2
 "EMBEDDED_MODULE1"
 ""
-1 120.5 130.2500000000001 E E E 1 E 1 E N "_3DText" E N "_3DFace" E E
+1 60 135.7193366708386 E E E 1 E 1 E N "_3DText" E N "_3DFace" E E
  E E
 1 0 0 0 0 0
 E E E
@@ -43,7 +43,7 @@ LANG:10027 0
 2
 LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
 LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
-0  59.99999999999999 117.25 1179 797.25
+0  -0.5 123 1118.5 890
 15 Canvas.Canvas.1
 0
 "main(mapping event)
@@ -54,7 +54,7 @@ LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
 13 3
 "PUSH_BUTTON1"
 ""
-1 260 60 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+1 260 60 E E E 1 E 1 E N "Orange" E N "_Button" E E
  E E
 2 0 0 0 0 0
 E E E
@@ -83,7 +83,7 @@ LANG:10027 12 PUSH_BUTTON1
 13 4
 "PUSH_BUTTON3"
 ""
-1 466.0000000000001 60 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+1 469 60 E E E 1 E 1 E N "Orange" E N "_Button" E E
  E E
 3 0 0 0 0 0
 E E E
@@ -97,7 +97,7 @@ LANG:10027 0
 2
 LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
 LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
-0  464.0000000000001 44 648.0000000000001 98
+0  467 44 651 98
 
 T 
 2
@@ -112,7 +112,7 @@ LANG:10027 12 PUSH_BUTTON1
 13 5
 "PUSH_BUTTON4"
 ""
-1 675.0000000000002 60.0625 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+1 675.0000000000002 60 E E E 1 E 1 E N "Orange" E N "_Button" E E
  E E
 4 0 0 0 0 0
 E E E
@@ -121,12 +121,14 @@ E E E
 LANG:10001 0 
 LANG:10027 0 
 
-1
+3
+"hoverfclr" "N \"Orange\""
+"hoverbclr" "N \"_Transparent\""
 "layoutAlignment" "AlignNone"
 2
 LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
 LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
-0  673.0000000000002 44.0625 857.0000000000002 98.0625
+0  673.0000000000002 44 857.0000000000002 98
 
 T 
 2
@@ -141,7 +143,7 @@ LANG:10027 12 PUSH_BUTTON1
 13 6
 "PUSH_BUTTON5"
 ""
-1 879.7142857142859 60 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+1 879.7142857142859 60 E E E 1 E 1 E N "Orange" E N "WF_Text" E E
  E E
 5 0 0 0 0 0
 E E E
@@ -170,7 +172,7 @@ LANG:10027 12 PUSH_BUTTON1
 13 7
 "PUSH_BUTTON6"
 ""
-1 60 60 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+1 60 60 E E E 1 E 1 E N "Orange" E N "_Button" E E
  E E
 6 0 0 0 0 0
 E E E

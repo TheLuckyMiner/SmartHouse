@@ -2,7 +2,7 @@ V 14
 2
 LANG:10001 0 
 LANG:10027 0 
-PANEL,-1 -1 1120 742 N "_3DFace" 0
+PANEL,-1 -1 1120 800 N "_3DFace" 0
 E E E E E 1 -1 -1 0  238 168
 ""0  1
 E E 4
@@ -11,92 +11,157 @@ E E 4
 "dpi" "120"
 "pdpi" "141.585"
 0 0 0
-"Bedroom.png" -1 -1 1005 778
+"Bedroom.png" -1 -1 1000 464
 -1
 DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
 LAYER, 0 
 2
 LANG:10001 0 
 LANG:10027 0 
-7 1
-"ELLIPSE1"
+23 7
+"TREND1"
 ""
-1 355 145 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+1 56.65624999999901 329.671263495277 E E E 1 E 1 E N "_WindowText" E N "WF_TableAlternatingRowColor_2" E E
  E E
-0 0 0 0 0 0
+7 0 0 0 0 0
 E E E
 0
 2
 LANG:10001 0 
 LANG:10027 0 
 
-6
-"shadowOffset" "[0,0]"
-"shadowColor" "NotificationBar_AnotherUser"
-"shadowRadius" "150"
+4
+"shadowOffset" "[2,8]"
+"shadowColor" "{63,63,63,131}"
+"shadowRadius" "18"
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  54.65624999999991 327.8333333333334 415.9062499999997 611.8333333333335
+5 E E E 1 356 N {0,0,0} 0 0 1 0 1 0 1 0 "#1_1" "System1:BedroomLightSensor.Inputs.LightLevel" 0 2 0 0 1 "3 2 0.0" "%x" 0 1 2 0 E
+E
+1 0 0 3 2
+2
+LANG:10001 36 BedroomLightSensor.Inputs.LightLevel
+LANG:10027 36 BedroomLightSensor.Inputs.LightLevel
+2
+LANG:10001 0 
+LANG:10027 0 
+1 "" ""  1 0 0 1 0 1 N "Red"
+0 0 0 0 0 0 0 0
+1 1 "%H:%M:%S" "%x" 0 1 0 0 
+E 1 0 0 0 90 1 20 300
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  2
+LANG:10001 30 Noto Sans,-1,16,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  100 
+N {0,0,0} 0 0 1 0 1 150 1 5 5 1 2
+0
+6 18
+"RECTANGLE4"
+""
+1 40 30 E E E 1 E 1 E N {0,0,0} E N "WF_Head" E E
+ E E
+12 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
 "layoutAlignment" "AlignNone"
 "dashclr"N "_Transparent"
-"antiAliased" "1"
-"// SimpleCtrlScriptStart {invalid}
-main()
-{
-  EP_setBackColor();
-}
-
-void EP_setBackColor()
-{
-  dyn_errClass err;
-
-  if( !dpExists( \"System1:BedroomLamp1.Inputs.Status:_online.._value\"))
-  {
-    setValue(\"\", \"color\", \"_dpdoesnotexist\");
-    return;
-  }
-
-  dpConnect(\"EP_setBackColorCB\",
-            \"System1:BedroomLamp1.Inputs.Status:_online.._value\");
-  err = getLastError();
-  if (dynlen(err) > 0)
-    setValue(\"\", \"color\", \"_dpdoesnotexist\");
-
-}
-
-void EP_setBackColorCB(string dpSource, bool boNewValue)
-{
-  if (!boNewValue){
-    setValue(\"\", \"backCol\", \"darkgrey\");
-    setValue(\"\", \"shadowEnabled\", FALSE);
-    setValue(\"\", \"shadowColor\", \"NotificationBar_AnotherUser\");
-    setValue(\"\", \"shadowRadius\", 150);
-    setValue(\"\", \"shadowOffset\", 0, 0);
-  }
-  else{
-    setValue(\"\", \"backCol\", \"Yellow\");
-  }
-}
-
-// SimpleCtrlScript {EP_setBackColor}
-// DP {System1:BedroomLamp1.Inputs.Status???}
-// DPConfig {:_online.._value}
-// DPType {bool}
-// AlertHdl {FALSE}
-// DPEInvalid {}
-// DPEConfigInvalid {}
-// Operator1 {notequal}
-// Operant1 {0}
-// Color1 {darkgrey}
-// Operator2 {equal}
-// Operant2 {1}
-// Color2 {Yellow}
-// SimpleCtrlScriptEnd {EP_setBackColor}
-" 0
- E 0 1 3 2 1 E U  1 E 345.75 146.25 50 50
-7 2
-"ELLIPSE2"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1.121785714285714 0 1.318181818181818 -6.871428571428563 155.4545454545455 1 E 40 30 390 360
+2 33
+"PRIMITIVE_TEXT2"
 ""
-1 355 145 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+1 40 170 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
  E E
-1 0 0 0 0 0
+15 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 40 170 42 193
+0 2 2 "0s" 0 0 0 192 0 0  40 170 1
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0 2
+LANG:10001 0 
+LANG:10027 0 
+2 34
+"PRIMITIVE_TEXT3"
+""
+1 60 150 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+16 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E U  0 E 60 150 60 160
+0 2 2 "0s" 0 0 0 64 0 0  60 150 1
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0 2
+LANG:10001 0 
+LANG:10027 0 
+2 35
+"BedroomLightPrimitiveText"
+""
+1 10 40 E E E 1 E 1 E N "black" E N "_Window" E E
+ E E
+17 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1.25 0 0.3333333333333333 47.5 196.6666666666667 0 E 10 40 290 130
+0 2 2 "0s" 0 0 0 73 0 0  10 40 1
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0 2
+LANG:10001 52 Статус датчика освещенности
+LANG:10027 53 Статус датчика освещенности:
+4 45
+"LINE1"
+""
+1 627.6368749999999 109.4895833333334 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+21 0 0 0 0 0
 E E E
 0
 2
@@ -107,65 +172,13 @@ LANG:10027 0
 "layoutAlignment" "AlignNone"
 "dashclr"N "_Transparent"
 "antiAliased" "1"
-"// SimpleCtrlScriptStart {invalid}
-main()
-{
-  EP_setBackColor();
-}
-
-void EP_setBackColor()
-{
-  dyn_errClass err;
-
-  if( !dpExists( \"System1:BedroomLamp2.Inputs.Status:_online.._value\"))
-  {
-    setValue(\"\", \"color\", \"_dpdoesnotexist\");
-    return;
-  }
-
-  dpConnect(\"EP_setBackColorCB\",
-            \"System1:BedroomLamp2.Inputs.Status:_online.._value\");
-  err = getLastError();
-  if (dynlen(err) > 0)
-    setValue(\"\", \"color\", \"_dpdoesnotexist\");
-
-}
-
-void EP_setBackColorCB(string dpSource, bool boNewValue)
-{
-  if (!boNewValue){
-    setValue(\"\", \"backCol\", \"darkgrey\");
-    setValue(\"\", \"shadowEnabled\", FALSE);
-    setValue(\"\", \"shadowColor\", \"NotificationBar_AnotherUser\");
-    setValue(\"\", \"shadowRadius\", 150);
-    setValue(\"\", \"shadowOffset\", 0, 0);
-  }
-  else{
-    setValue(\"\", \"backCol\", \"Yellow\");
-  }
-}
-// SimpleCtrlScript {EP_setBackColor}
-// DP {System1:BedroomLamp1.Inputs.Status???}
-// DPConfig {:_online.._value}
-// DPType {bool}
-// AlertHdl {FALSE}
-// DPEInvalid {}
-// DPEConfigInvalid {}
-// Operator1 {notequal}
-// Operant1 {0}
-// Color1 {darkgrey}
-// Operator2 {equal}
-// Operant2 {1}
-// Color2 {Yellow}
-// SimpleCtrlScriptEnd {EP_setBackColor}
-" 0
- E 0 1 3 2 1 E U  1 E 830 146.25 50 50
-7 3
-"ELLIPSE3"
+E E 0 1 3 2 1 E  627.6368749999999 109.4895833333334 627.6368749999999 219.4895833333334
+4 46
+"LINE2"
 ""
-1 355 145 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+1 700 110 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
  E E
-2 0 0 0 0 0
+22 0 0 0 0 0
 E E E
 0
 2
@@ -176,65 +189,128 @@ LANG:10027 0
 "layoutAlignment" "AlignNone"
 "dashclr"N "_Transparent"
 "antiAliased" "1"
-"// SimpleCtrlScriptStart {invalid}
-main()
-{
-  EP_setBackColor();
-}
+E E 0 1 3 2 1 E  700 110 700 187
+4 47
+"LINE3"
+""
+1 629 187 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+23 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
 
-void EP_setBackColor()
-{
-  dyn_errClass err;
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  629 187 1030 187
+4 50
+"LINE6"
+""
+1 920 187 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+26 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
 
-  if( !dpExists( \"System1:BedroomLamp3.Inputs.Status:_online.._value\"))
-  {
-    setValue(\"\", \"color\", \"_dpdoesnotexist\");
-    return;
-  }
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  920 187 920 220
+4 51
+"LINE7"
+""
+1 770 110 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+27 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
 
-  dpConnect(\"EP_setBackColorCB\",
-            \"System1:BedroomLamp3.Inputs.Status:_online.._value\");
-  err = getLastError();
-  if (dynlen(err) > 0)
-    setValue(\"\", \"color\", \"_dpdoesnotexist\");
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  770 110 770 188
+4 55
+"LINE11"
+""
+1 1030 187 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+31 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
 
-}
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1030 187 1030 504.0000000000001
+4 56
+"LINE12"
+""
+1 942.4106249999999 504.3333333333334 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+32 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
 
-void EP_setBackColorCB(string dpSource, bool boNewValue)
-{
-  if (!boNewValue){
-    setValue(\"\", \"backCol\", \"darkgrey\");
-    setValue(\"\", \"shadowEnabled\", FALSE);
-    setValue(\"\", \"shadowColor\", \"NotificationBar_AnotherUser\");
-    setValue(\"\", \"shadowRadius\", 150);
-    setValue(\"\", \"shadowOffset\", 0, 0);
-  }
-  else{
-    setValue(\"\", \"backCol\", \"Yellow\");
-  }
-}
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  942 504 1030 504
+6 103
+"RECTANGLE5"
+""
+1 60 310 E E E 1 E 1 E N {0,0,0} E N "WF_Selected" E E
+ E E
+50 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
 
-// SimpleCtrlScript {EP_setBackColor}
-// DP {System1:BedroomLamp1.Inputs.Status???}
-// DPConfig {:_online.._value}
-// DPType {bool}
-// AlertHdl {FALSE}
-// DPEInvalid {}
-// DPEConfigInvalid {}
-// Operator1 {notequal}
-// Operant1 {0}
-// Color1 {darkgrey}
-// Operator2 {equal}
-// Operant2 {1}
-// Color2 {Yellow}
-// SimpleCtrlScriptEnd {EP_setBackColor}
-" 0
- E 0 1 3 2 1 E 1 0 1 -12.5 3.75 1 E 872.5 506.25 50 50
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1 0 1 -3.218750000000199 0 1 E 60 310 417 250.6666666666667
+1 106 10 "" 1
+0
+1 108 11 "" 1
+0
+1 110 12 "" 1
+0
+1 112 13 "" 1
+0
+1 113 14 "" 1
+0
+1 114 15 "" 1
+0
 0
 LAYER, 1 
 2
 LANG:10001 0 
 LANG:10027 0 
+1 104 9 "" 0
+0
 0
 LAYER, 2 
 2
@@ -266,4 +342,54 @@ LAYER, 7
 LANG:10001 0 
 LANG:10027 0 
 0
+3 9 "PANEL_REF20" 16
+"layoutAlignment" "AlignLeft|AlignLeading"
+"" ""
+"objects/STD_VALUES/value_3.pnl" 167 101.6472167968751 T 49 3.188267958412093 0 2.449999999999995 -272.4407490548194 10.96431884765655
+3
+"$b_IBit""TRUE"
+"$b_ShowInfo""TRUE"
+"$dpe_value""System1:BedroomLightSensor.Inputs.LightLevel"
+3 10 "PANEL_REF21" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/Lamp.pnl" 431.5 99.5 T 54 1 0 1 4.636874999999918 -45.51041666666663
+1
+"$dp""BedroomLamp1"
+3 11 "PANEL_REF22" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/Lamp.pnl" 714 145.5000000000001 T 55 1 0 1 14.5 -91.00000000000006
+1
+"$dp""BedroomLamp2"
+3 12 "PANEL_REF23" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/Lamp.pnl" 643.5 291 T 56 1 0 1 107.4106249999999 -21.16666666666657
+1
+"$dp""BedroomLamp3"
+3 13 "PANEL_REF24" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/LightSwitch.pnl" 530.8475976562498 39.64721679687513 T 57 1 0 1 80.15240234375017 0
+1
+"$dp""BedroomLamp1"
+3 14 "PANEL_REF25" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/LightSwitch.pnl" 681 117 T 58 1 0 1 0 -77.35278320312487
+1
+"$dp""BedroomLamp2"
+3 15 "PANEL_REF26" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/LightSwitch.pnl" 750.875 117 T 59 1 0 1 0.125 -77.35278320312487
+1
+"$dp""BedroomLamp3"
+1 16 "SHAPE_GROUP1" -1
+4 1 
+18 35 103 7 
+9 
+"layoutAlignment" "AlignNone"
+"" ""
 0

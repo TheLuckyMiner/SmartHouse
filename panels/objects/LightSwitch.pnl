@@ -1,0 +1,83 @@
+V 14
+2
+LANG:10001 0 
+LANG:10027 0 
+PANEL,-1 -1 94 91 N "_3DFace" 1
+"$dp"
+E E E E E 1 -1 -1 0  10 10
+""0  1
+E E 4
+"CBRef" "1"
+"EClose" E
+"dpi" "120"
+"pdpi" "141.585"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+2
+LANG:10001 0 
+LANG:10027 0 
+29 1
+"ToggleSwitch_ewo1"
+""
+1 10 10 E E E 1 E 1 E N "_3DText" E N "_3DFace" E E
+ E E
+0 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+2
+"skin" "enum 1"
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  10 10 80 80
+16 ToggleSwitch.ewo
+1
+0 "toggled" "(bool on)"
+"  // Изменить режим работы лампы
+  bool LightStatus;
+  dpGet(\"System1:\" + $dp + \".Inputs.Status\", LightStatus);
+  dpSet(\"System1:\" + $dp + \".Inputs.Status\", !LightStatus);"
+E0
+LAYER, 1 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 2 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 3 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 4 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 5 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 6 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 7 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+0

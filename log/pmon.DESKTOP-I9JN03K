@@ -115,3 +115,433 @@ WCCILpmon    (1), 2026.03.21 14:31:57.112, SYS,  INFO,        1, Manager Start, 
 WCCILpmon    (1), 2026.03.21 14:31:57.443, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
 WCCILpmon    (1), 2026.03.21 14:31:57.767, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.ctl
 WCCILpmon    (1), 2026.03.21 14:31:58.054, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 13:29:05.559, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.22 13:29:05.695, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 13:29:06.998, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 13:29:07.199, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 13:29:07.500, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 13:29:07.801, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 13:29:08.002, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 13:29:08.318, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 13:29:10.140, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 13:29:10.140, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 13:29:11.511, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 13:29:11.842, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 13:29:15.797, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(5) at index 16
+WCCILpmon    (1), 2026.03.22 13:29:15.804, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 13:29:17.735, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(4) at index 15
+WCCILpmon    (1), 2026.03.22 13:29:17.742, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 13:29:19.293, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(3) at index 14
+WCCILpmon    (1), 2026.03.22 13:29:19.302, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 13:29:19.968, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 13:29:20.198, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 13:29:20.415, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 13:29:20.630, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 13:29:20.636, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 13:29:20.822, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 13:29:20.926, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 13:29:20.936, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 13:29:21.285, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 13:59:35.059, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 13:59:35.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 13:59:35.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 13:59:35.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 13:59:35.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 13:59:35.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 13:59:35.162, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 13:59:36.667, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 13:59:36.682, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 13:59:37.600, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 13:59:38.719, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(4) at index 15
+WCCILpmon    (1), 2026.03.22 13:59:38.726, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 13:59:39.243, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 13:59:40.292, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(5) at index 16
+WCCILpmon    (1), 2026.03.22 13:59:40.292, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 13:59:40.608, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 13:59:41.148, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 13:59:41.254, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 13:59:41.781, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(3) at index 14
+WCCILpmon    (1), 2026.03.22 13:59:41.781, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 13:59:42.616, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 13:59:42.801, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 13:59:43.001, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 13:59:43.322, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 13:59:43.540, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 13:59:43.703, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 13:59:44.041, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCILsim(1) at index 11
+WCCILpmon    (1), 2026.03.22 13:59:44.041, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 13:59:45.593, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(1) at index 10
+WCCILpmon    (1), 2026.03.22 13:59:45.606, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 13:59:46.833, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 13:59:47.265, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 13:59:51.777, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 13:59:51.792, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 14:00:06.767, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 14:00:06.980, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 14:00:06.986, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 14:00:07.196, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 14:00:07.205, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 14:00:07.417, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 14:00:07.426, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 14:00:07.645, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 14:00:07.855, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 14:30:09.338, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 14:30:09.446, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:09.446, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:09.447, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:09.447, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:09.448, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:09.448, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:09.449, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:13.605, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:15.642, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:16.630, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 14:30:16.748, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 14:30:17.990, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 14:30:18.222, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 14:30:18.452, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 14:30:18.671, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 14:30:18.902, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 14:30:19.165, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 14:30:22.277, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 14:30:22.715, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 14:30:31.098, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.22 14:30:31.099, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:31.099, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:31.100, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:31.100, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:31.100, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:31.101, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:35.261, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:35.371, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:36.351, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 14:30:37.002, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.22 14:30:37.002, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 14:30:40.438, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.22 14:30:40.574, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 14:30:41.889, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 14:30:42.109, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 14:30:42.324, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 14:30:42.556, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 14:30:42.773, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 14:30:43.002, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 14:30:46.180, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 14:30:46.520, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 14:30:49.123, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 14:30:49.130, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 14:30:54.642, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 14:30:54.862, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 14:30:55.078, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 14:30:55.401, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 14:30:55.407, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 14:30:55.728, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 14:30:55.734, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 14:30:55.947, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 14:30:55.953, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 14:30:56.173, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 14:30:56.452, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 14:30:56.666, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 15:00:55.623, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 15:00:55.731, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:00:55.732, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:00:55.732, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:00:55.733, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:00:55.733, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:00:55.734, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:00:55.734, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:00:59.870, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:01:01.843, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:01:02.259, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 15:01:02.360, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 15:01:03.630, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 15:01:03.846, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 15:01:04.062, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 15:01:04.262, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 15:01:04.462, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 15:01:04.695, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 15:01:07.271, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 15:01:07.271, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 15:01:07.886, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 15:01:08.308, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 15:01:16.415, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 15:01:16.644, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 15:01:19.304, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 15:01:19.626, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 15:01:19.633, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 15:01:19.971, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:01:20.287, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 15:01:20.287, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 15:01:20.667, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 15:01:20.677, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:01:21.021, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:01:21.243, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 15:31:18.863, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2026.03.22 15:31:18.879, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 15:31:19.034, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(3) - restarting it #1
+WCCILpmon    (1), 2026.03.22 15:31:19.041, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:31:19.248, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(4) - restarting it #1
+WCCILpmon    (1), 2026.03.22 15:31:19.253, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:31:19.463, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(5) - restarting it #1
+WCCILpmon    (1), 2026.03.22 15:31:19.470, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:31:19.591, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 15:31:19.604, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:19.606, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:19.607, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:19.608, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:19.609, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:19.609, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:19.610, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:23.726, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:36.459, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 15:31:36.459, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 15:31:36.875, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:42.106, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:31:42.206, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 15:31:42.306, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 15:31:43.727, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 15:31:43.943, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 15:31:44.159, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 15:31:44.360, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 15:31:44.576, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 15:31:44.799, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 15:31:46.869, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 15:31:46.869, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 15:31:48.012, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 15:31:48.355, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 15:31:56.876, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 15:31:57.097, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 15:31:57.318, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 15:31:57.528, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 15:31:57.534, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 15:31:57.750, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:31:57.962, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 15:31:57.971, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 15:31:58.183, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 15:31:58.191, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:31:58.414, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:31:58.591, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:52:56.208, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:53:00.357, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:53:00.566, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:53:02.565, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 15:53:03.082, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.22 15:53:03.082, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.22 15:53:07.763, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.22 15:53:07.895, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 15:53:09.315, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 15:53:09.615, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 15:53:09.822, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 15:53:10.032, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 15:53:10.248, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 15:53:10.486, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 15:53:13.619, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 15:53:13.929, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 15:53:22.054, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 15:53:22.273, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 15:53:22.489, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 15:53:24.436, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 15:53:24.779, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:53:25.101, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 15:53:25.109, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 15:53:25.341, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:53:25.680, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 15:53:25.680, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 15:53:26.122, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 15:53:26.130, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 15:53:26.345, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 16:23:33.665, SYS,  INFO,       11/pmon, Detected stopped manager WCCILsim(1) - restarting it #1
+WCCILpmon    (1), 2026.03.22 16:23:33.681, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 16:23:33.979, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(3) - restarting it #1
+WCCILpmon    (1), 2026.03.22 16:23:33.986, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 16:23:34.088, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(4) - restarting it #1
+WCCILpmon    (1), 2026.03.22 16:23:34.095, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 16:23:34.415, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(5) - restarting it #1
+WCCILpmon    (1), 2026.03.22 16:23:34.421, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 16:23:34.633, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 16:23:34.743, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:23:34.744, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:23:34.745, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:23:34.746, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:23:34.747, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:23:34.747, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:23:34.748, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:23:34.748, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:23:38.897, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:23:48.391, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 16:23:48.391, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 16:24:04.817, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 16:24:04.933, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:24:06.005, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 16:24:06.106, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 16:24:07.410, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 16:24:07.610, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 16:24:08.043, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 16:24:08.212, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 16:24:08.413, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 16:24:08.715, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 16:24:11.878, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 16:24:12.210, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 16:24:18.179, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 16:24:18.192, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 16:24:42.371, SYS,  INFO,       11/pmon, Detected stopped manager WCCILproxy(1) - restarting it #1
+WCCILpmon    (1), 2026.03.22 16:24:42.379, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 16:25:11.792, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 16:25:12.023, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 16:25:12.354, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 16:25:12.487, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 16:25:12.702, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 16:25:12.702, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 16:25:12.927, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 16:25:12.933, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 16:25:13.102, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 16:25:13.432, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 16:25:13.439, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 16:25:13.654, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 16:54:25.648, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 16:54:25.759, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:54:25.759, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:54:25.760, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:54:25.760, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:54:25.760, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:54:25.761, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:54:25.761, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:54:29.905, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:54:30.657, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 16:54:30.664, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 16:54:55.842, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGKILL
+WCCILpmon    (1), 2026.03.22 16:54:55.951, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 16:54:56.536, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 16:54:56.653, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 16:54:57.877, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 16:54:58.038, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 16:54:58.270, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 16:54:58.491, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 16:54:58.834, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 16:54:59.049, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 16:54:59.326, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 16:54:59.333, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 16:55:02.254, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 16:55:02.597, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 16:55:32.761, SYS,  INFO,       11/pmon, Detected stopped manager WCCILproxy(1) - restarting it #1
+WCCILpmon    (1), 2026.03.22 16:55:32.770, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 16:56:00.482, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 16:56:00.825, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 16:56:01.045, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 16:56:01.258, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 16:56:01.264, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 16:56:01.586, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 16:56:01.594, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 16:56:01.804, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 16:56:01.811, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 16:56:02.030, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 16:56:02.189, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 16:56:02.399, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 17:25:22.942, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 17:25:23.055, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:25:23.055, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:25:23.055, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:25:23.055, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:25:23.055, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:25:23.055, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:25:27.185, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:25:29.212, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:25:29.605, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 17:25:29.715, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 17:25:30.232, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 17:25:30.232, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 17:25:31.092, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 17:25:31.479, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 17:25:31.860, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 17:25:32.078, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 17:25:32.297, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 17:25:32.625, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 17:25:35.816, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 17:25:36.161, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 17:25:51.849, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(3) at index 14
+WCCILpmon    (1), 2026.03.22 17:25:51.855, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 17:25:53.608, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(4) at index 15
+WCCILpmon    (1), 2026.03.22 17:25:53.615, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 17:25:55.136, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(5) at index 16
+WCCILpmon    (1), 2026.03.22 17:25:55.143, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 17:25:56.633, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCILsim(1) at index 11
+WCCILpmon    (1), 2026.03.22 17:25:56.640, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 17:25:58.178, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(1) at index 10
+WCCILpmon    (1), 2026.03.22 17:25:58.185, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 17:26:05.867, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCILproxy(1) at index 9
+WCCILpmon    (1), 2026.03.22 17:26:05.873, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 17:26:34.096, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 17:26:34.309, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 17:26:34.316, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 17:26:34.561, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 17:26:34.567, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 17:26:34.782, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 17:26:34.783, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 17:55:59.108, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.22 17:55:59.217, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:55:59.217, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:55:59.218, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:55:59.218, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:55:59.219, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:55:59.219, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:56:03.374, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:56:05.303, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 17:56:05.722, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.22 17:56:05.843, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILpmon    (1), 2026.03.22 17:56:07.330, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.22 17:56:07.546, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.22 17:56:07.762, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.22 17:56:08.078, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.22 17:56:08.279, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.22 17:56:08.480, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.22 17:56:11.706, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILpmon    (1), 2026.03.22 17:56:12.021, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 17:56:18.176, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.22 17:56:18.176, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.22 17:56:38.480, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(4) at index 15
+WCCILpmon    (1), 2026.03.22 17:56:38.487, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 15 -num 4 SimulateLightSensors.ctl
+WCCILpmon    (1), 2026.03.22 17:56:40.098, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(5) at index 16
+WCCILpmon    (1), 2026.03.22 17:56:40.104, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 16 -num 5 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 17:56:41.943, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(3) at index 14
+WCCILpmon    (1), 2026.03.22 17:56:41.950, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 14 -num 3 SimulateLeakSensors.ctl
+WCCILpmon    (1), 2026.03.22 17:56:42.172, SYS,  INFO,       11/pmon, Detected stopped manager WCCILproxy(1) - restarting it #1
+WCCILpmon    (1), 2026.03.22 17:56:42.181, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCILpmon    (1), 2026.03.22 17:56:46.632, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCILsim(1) at index 11
+WCCILpmon    (1), 2026.03.22 17:56:46.638, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILpmon    (1), 2026.03.22 17:56:50.216, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(1) at index 10
+WCCILpmon    (1), 2026.03.22 17:56:50.222, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.22 17:57:09.915, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 17:57:10.170, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.22 17:57:10.178, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 17:57:10.390, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.22 17:57:10.399, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 Simulate.lst
+WCCILpmon    (1), 2026.03.22 17:57:10.719, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.22 17:57:10.720, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.22 18:18:29.651, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.22 18:18:29.652, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.653, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.654, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.655, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.657, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.657, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.658, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.658, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.658, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.659, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.659, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:29.660, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:33.759, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:33.868, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:35.949, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.22 18:18:36.728, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.22 18:18:36.729, SYS,  INFO,        2, Manager Stop

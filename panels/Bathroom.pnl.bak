@@ -2,26 +2,171 @@ V 14
 2
 LANG:10001 0 
 LANG:10027 0 
-PANEL,-1 -1 400 400 N "_3DFace" 0
-E E E E E 1 -1 -1 0  -1 -1
+PANEL,-1 -1 1120 800 N "_3DFace" 0
+E E E E E 1 -1 -1 0  740 120
 ""0  1
-E E 4
+E E 5
 "CBRef" "1"
 "EClose" E
 "dpi" "120"
 "pdpi" "141.585"
+"sizePolicy" "Fixed Fixed"
 0 0 0
-""
+"Bathroom.png" -1 -1 1100 377
+-1
 DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
 LAYER, 0 
 2
 LANG:10001 0 
 LANG:10027 0 
+4 4
+"LINE1"
+""
+1 1030 280 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+2 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1030 280 1030 330
+1 10 0 "" 1
+0
+1 12 1 "" 1
+0
+4 5
+"LINE2"
+""
+1 1030 330 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+3 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E E 0 1 3 2 1 E  1030 330 933 330
+6 6
+"RECTANGLE4"
+""
+1 40 30 E E E 1 E 1 E N {0,0,0} E N "WF_Head" E E
+ E E
+5 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 0.9707637235449722 0 1.198232323232323 1.169451058201114 174.0530303030303 1 E 40 30 390 360
+2 7
+"BedroomLightPrimitiveText"
+""
+1 10 40 E E E 1 E 1 E N "black" E N "_Window" E E
+ E E
+6 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+4
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+"transformable" "0"
+E E 0 1 3 2 1 E 1.081716979435659 0 0.3030012771392081 47.59906178053534 202.1219667943805 0 E 10 40 290 130
+0 2 2 "0s" 0 0 0 73 0 0  10 40 1
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0 2
+LANG:10001 46 Статус датчика влажности
+LANG:10027 53 Статус датчика освещенности:
+6 8
+"RECTANGLE5"
+""
+1 60 310 E E E 1 E 1 E N {0,0,0} E N "WF_Selected" E E
+ E E
+7 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 0.8653735835485269 0 0.9090038314176244 4.330382603108994 19.71519795657721 1 E 60 310 417 250.6666666666667
+23 9
+"TREND3"
+""
+1 56.26895501012299 331.0809386973179 E E E 1 E 1 E N "_WindowText" E N "_Window" E E
+ E E
+8 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+2
+"minimumSize" "-1 0"
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  54.26895501012299 329.0809386973179 363.2204828278158 590.0809386973179
+5 E E E 1 304 N {0,0,0} 0 0 1 0 1 0 1 0 "#1_1" "System1:BathroomLeakSensor.Inputs.IsLeak" 0 2 0 0 1 "3 2 0.0" "%x" 0 1 2 0 E
+E
+1 0 0 3 2
+2
+LANG:10001 32 BathroomLeakSensor.Inputs.IsLeak
+LANG:10027 32 BathroomLeakSensor.Inputs.IsLeak
+2
+LANG:10001 0 
+LANG:10027 0 
+1 "" ""  1 0 0 1 0 1 N "Red"
+0 0 0 0 0 0 0 0
+1 1 "%H:%M:%S" "%x" 0 1 0 0 
+E 1 0 0 0 90 1 20 180
+2
+LANG:10001 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
+LANG:10027 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
+0  2
+LANG:10001 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
+LANG:10027 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
+0  2
+LANG:10001 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
+LANG:10027 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
+0  100 
+N {0,0,0} 0 0 1 0 1 150 1 5 5 1 2
+0
 0
 LAYER, 1 
 2
 LANG:10001 0 
 LANG:10027 0 
+1 13 3 "" 0
+0
 0
 LAYER, 2 
 2
@@ -53,4 +198,24 @@ LAYER, 7
 LANG:10001 0 
 LANG:10027 0 
 0
+3 0 "PANEL_REF1" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/Lamp.pnl" 740 120 T 0 1 0 1 1.5 -24.5
+1
+"$dp""BathroomLamp1"
+3 1 "PANEL_REF2" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/LightSwitch.pnl" 1010 230 T 1 1 0 1 0 -16.36398467432957
+1
+"$dp""BathroomLamp1"
+3 3 "PANEL_REF3" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/STD_VALUES/value_3.pnl" 199 97.99999999999994 T 4 2.536484551113194 0 2.064196200510851 -260.8529019815787 55.73447477650123
+3
+"$b_IBit""TRUE"
+"$b_ShowInfo""TRUE"
+"$dpe_value""System1:BathroomLeakSensor.Inputs.IsLeak"
 0
