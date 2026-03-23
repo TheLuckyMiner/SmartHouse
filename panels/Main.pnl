@@ -2,7 +2,7 @@ V 14
 2
 LANG:10001 0 
 LANG:10027 0 
-PANEL,-1 -1 1134 908 N "_3DFace" 0
+PANEL,-1 -1 1134 906 N "_3DFace" 0
 E E E E E 1 -1 -1 0  240 40
 ""0  1
 E E 4
@@ -63,7 +63,11 @@ E E E
 LANG:10001 0 
 LANG:10027 0 
 
-1
+5
+"hoverfclr" "N \"NotificationBar_AnotherUser\""
+"shadowOffset" "[1,1]"
+"shadowColor" "{63,63,63,131}"
+"shadowRadius" "18"
 "layoutAlignment" "AlignNone"
 2
 LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
@@ -92,7 +96,11 @@ E E E
 LANG:10001 0 
 LANG:10027 0 
 
-1
+5
+"hoverfclr" "N \"NotificationBar_AnotherUser\""
+"shadowOffset" "[1,1]"
+"shadowColor" "{63,63,63,131}"
+"shadowRadius" "18"
 "layoutAlignment" "AlignNone"
 2
 LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
@@ -121,9 +129,12 @@ E E E
 LANG:10001 0 
 LANG:10027 0 
 
-3
-"hoverfclr" "N \"Orange\""
+6
+"hoverfclr" "N \"NotificationBar_AnotherUser\""
 "hoverbclr" "N \"_Transparent\""
+"shadowOffset" "[1,1]"
+"shadowColor" "{63,63,63,131}"
+"shadowRadius" "18"
 "layoutAlignment" "AlignNone"
 2
 LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
@@ -152,7 +163,11 @@ E E E
 LANG:10001 0 
 LANG:10027 0 
 
-1
+5
+"hoverfclr" "N \"NotificationBar_AnotherUser\""
+"shadowOffset" "[1,1]"
+"shadowColor" "{63,63,63,131}"
+"shadowRadius" "18"
 "layoutAlignment" "AlignNone"
 2
 LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
@@ -181,7 +196,11 @@ E E E
 LANG:10001 0 
 LANG:10027 0 
 
-1
+5
+"hoverfclr" "N \"NotificationBar_AnotherUser\""
+"shadowOffset" "[1,1]"
+"shadowColor" "{63,63,63,131}"
+"shadowRadius" "18"
 "layoutAlignment" "AlignNone"
 2
 LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0

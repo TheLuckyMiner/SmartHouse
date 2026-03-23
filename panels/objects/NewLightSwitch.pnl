@@ -1,0 +1,98 @@
+V 14
+2
+LANG:10001 0 
+LANG:10027 0 
+PANEL,-1 -1 103 90 N "_3DFace" 1
+"$dp"
+E E E E E 1 -1 -1 0  40 169
+""0  1
+E E 5
+"CBRef" "1"
+"EClose" E
+"dpi" "120"
+"pdpi" "141.585"
+"sizePolicy" "Fixed Fixed"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+2
+LANG:10001 0 
+LANG:10027 0 
+13 3
+"PUSH_BUTTON2"
+""
+1 14.75 138.25 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+2 0 0 0 0 0
+E E E
+8
+2
+LANG:10001 0 
+LANG:10027 0 
+
+5
+"shadowOffset" "[2,2]"
+"shadowColor" "{63,63,63,131}"
+"shadowRadius" "18"
+"sizePolicy" "Fixed Fixed"
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  17.75 8.25 80.75 71.25
+
+P 
+4294967295
+"pictures/NewLightSwitchFALSE.png"
+2
+LANG:10001 0 
+LANG:10027 0 
+"//Инициализация констант
+string DP_LAMP_SWITCH = \"System1:\" + $dp + \".Commands.Switch\";
+
+main(mapping event)
+{
+  bool lampSwitchValue;
+  dpGet(DP_LAMP_SWITCH, lampSwitchValue);
+  dpSet(DP_LAMP_SWITCH, !lampSwitchValue);
+  setValue(\"PUSH_BUTTON2\", \"imageToFile\", \"C:/Sybcom/Project/Lamps/pictures/NewLightSwitchTRUE.png\");
+}" 0
+ E E E
+0
+LAYER, 1 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 2 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 3 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 4 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 5 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 6 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 7 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+0

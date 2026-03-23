@@ -1,6 +1,6 @@
 [general]
 pvss_path = "C:/Sybcom/Kaskad/3.18"
-proj_path = "C:/Users/R0TIZA/Documents/Kaskad/SmartHouse"
+proj_path = "C:/Sybcom/Project/Lamps"
 proj_version = "3.18"
 #[S5ap]
 #accessPoint = "PCONLINE"
