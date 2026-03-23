@@ -218,6 +218,8 @@ N {0,0,0} 0 0 1 0 1 150 1 5 5 1 2
 0
 1 29 4 "" 1
 0
+1 36 6 "" 1
+0
 0
 LAYER, 1 
 2
@@ -287,4 +289,10 @@ LANG:10027 0
 
 "layoutAlignment" "AlignNone"
 "" ""
+3 6 "PANEL_REF5" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/LeakSensor.pnl" 1080.333333333333 548.1146278700305 T 18 0.6699029126213593 0 0.6509433962264151 314.5084312723557 167.3812065835641
+1
+"$leakSensorName""KitchenLeakSensor"
 0

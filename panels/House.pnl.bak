@@ -2,7 +2,8 @@ V 14
 2
 LANG:10001 0 
 LANG:10027 0 
-PANEL,-1 -1 1120 800 N "_3DFace" 0
+PANEL,-1 -1 1120 800 N "_3DFace" 1
+"$SCREENTYPE"
 E E E E E 1 -1 -1 0  260 80
 ""0  1
 E E 5
@@ -30,6 +31,8 @@ LANG:10027 0
 1 9 4 "" 2
 0
 1 11 5 "" 2
+0
+1 13 6 "" 18
 0
 0
 LAYER, 1 
@@ -133,4 +136,10 @@ LANG:10027 0
 2
 "$lampDpName""LivingRoomLamp1"
 "$lightSensorName""LivingRoomLightSensor"
+3 6 "PANEL_REF7" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"vision/aes/AESRow.pnl" 50.71836419753095 1968 T 29 1 0 2 59.28163580246905 -766
+1
+"$SCREENTYPE""$SCREENTYPE"
 0

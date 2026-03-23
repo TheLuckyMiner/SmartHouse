@@ -14295,3 +14295,1889 @@ WCCILproxy   (1), 2026.03.23 11:59:37.549, SYS,  INFO,      170, Signal SIGTERM 
 WCCILproxy   (1), 2026.03.23 11:59:37.722, SYS,  INFO,      221, Multiplexing proxy Stop
 WCCILpmon    (1), 2026.03.23 11:59:37.770, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
 WCCILpmon    (1), 2026.03.23 11:59:37.771, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 12:16:24.546, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.23 12:16:24.682, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILdata    (0), 2026.03.23 12:16:24.843, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILdata    (0), 2026.03.23 12:16:24.856, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2026.03.23 12:16:25.861, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2026.03.23 12:16:25.861, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2026.03.23 12:16:25.862, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.23 12:16:25.886, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2026.03.23 12:16:25.911, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2026.03.23 12:16:25.912, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2026.03.23 12:16:25.912, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2026.03.23 12:16:25.913, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2026.03.23 12:16:25.915, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:16:25.938, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2026.03.23 12:16:25.940, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2026.03.23 12:16:26.003, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2026.03.23 12:16:26.071, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (0), 2026.03.23 12:16:26.078, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2026.03.23 12:16:26.080, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:26.082, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:26.083, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2026.03.23 12:16:26.091, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:16:26.220, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2026.03.23 12:16:26.290, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (1), 2026.03.23 12:16:26.296, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2026.03.23 12:16:26.298, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:26.299, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 3 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:26.300, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2026.03.23 12:16:26.308, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:16:26.439, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2026.03.23 12:16:26.502, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (2), 2026.03.23 12:16:26.508, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2026.03.23 12:16:26.510, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:26.512, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 4 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:26.513, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2026.03.23 12:16:26.514, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:16:26.656, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2026.03.23 12:16:26.723, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (3), 2026.03.23 12:16:26.732, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2026.03.23 12:16:26.734, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:26.735, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 5 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:26.736, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2026.03.23 12:16:26.737, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:16:26.874, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2026.03.23 12:16:27.046, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (4), 2026.03.23 12:16:27.052, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2026.03.23 12:16:27.054, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:27.056, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 6 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:27.057, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2026.03.23 12:16:27.072, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:16:27.268, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2026.03.23 12:16:27.330, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (5), 2026.03.23 12:16:27.336, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2026.03.23 12:16:27.338, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:27.339, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 7 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:27.340, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2026.03.23 12:16:27.341, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCOAvalarch (0), 2026.03.23 12:16:29.117, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:16:29.143, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2026.03.23 12:16:29.330, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:16:29.361, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2026.03.23 12:16:29.532, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:16:29.563, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2026.03.23 12:16:29.766, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:16:29.782, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (4), 2026.03.23 12:16:30.092, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:16:30.125, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2026.03.23 12:16:30.125, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (1), 2026.03.23 12:16:30.343, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2026.03.23 12:16:30.373, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2026.03.23 12:16:30.379, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILdata    (0), 2026.03.23 12:16:30.388, SYS,  INFO,        0, , Sending initial values to archive
+WCCILevent   (0), 2026.03.23 12:16:30.452, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILevent   (0), 2026.03.23 12:16:30.484, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2026.03.23 12:16:30.486, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:30.488, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOAvalarch (2), 2026.03.23 12:16:30.546, SYS,  INFO,        0, , Ready for operation.
+WCCILdata    (0), 2026.03.23 12:16:30.636, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2026.03.23 12:16:30.636, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2026.03.23 12:16:30.637, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2026.03.23 12:16:30.659, SYS,  INFO,      168, Initialize 130 alerts
+WCCILevent   (0), 2026.03.23 12:16:30.676, SYS,  INFO,      103, User names/passwords initialized
+WCCILdata    (0), 2026.03.23 12:16:30.684, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2026.03.23 12:16:30.713, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCOAvalarch (3), 2026.03.23 12:16:30.779, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2026.03.23 12:16:31.100, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (5), 2026.03.23 12:16:31.379, SYS,  INFO,        0, , Ready for operation.
+WCCILpmon    (1), 2026.03.23 12:16:31.554, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.23 12:16:31.562, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCOAui      (0), 2026.03.23 12:16:31.969, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAui      (0), 2026.03.23 12:16:34.006, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2026.03.23 12:16:34.009, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:34.010, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:34.037, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2026.03.23 12:16:34.038, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2026.03.23 12:16:34.038, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2026.03.23 12:16:34.041, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 12:16:34.043, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOAui      (1), 2026.03.23 12:16:34.045, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2026.03.23 12:16:34.055, SYS,  INFO,      103, User names/passwords initialized
+WCCOAui      (1), 2026.03.23 12:16:34.073, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILproxy   (1), 2026.03.23 12:16:38.750, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILproxy   (1), 2026.03.23 12:16:38.756, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2026.03.23 12:16:38.975, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCOActrl    (0), 2026.03.23 12:16:39.055, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (0), 2026.03.23 12:16:39.059, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (0), 2026.03.23 12:16:39.061, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:39.062, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:39.079, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2026.03.23 12:16:39.079, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2026.03.23 12:16:39.079, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2026.03.23 12:16:39.095, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 12:16:39.096, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOActrl    (1), 2026.03.23 12:16:39.097, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2026.03.23 12:16:39.097, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (1), 2026.03.23 12:16:39.099, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.23 12:16:39.197, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILsim     (1), 2026.03.23 12:16:39.290, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILsim     (1), 2026.03.23 12:16:39.294, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2026.03.23 12:16:39.296, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:39.298, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:39.317, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2026.03.23 12:16:39.318, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2026.03.23 12:16:39.318, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2026.03.23 12:16:39.332, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 12:16:39.334, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILsim     (1), 2026.03.23 12:16:39.336, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2026.03.23 12:16:39.416, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 -f Simulate.lst
+WCCOActrl    (2), 2026.03.23 12:16:39.496, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (2), 2026.03.23 12:16:39.500, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2026.03.23 12:16:39.502, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:39.503, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:16:39.507, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2026.03.23 12:16:39.510, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2026.03.23 12:16:39.510, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2026.03.23 12:16:39.537, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 12:16:39.538, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOActrl    (2), 2026.03.23 12:16:39.540, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2026.03.23 12:16:39.540, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (2), 2026.03.23 12:16:39.541, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.23 12:16:39.631, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOActrl    (1), 2026.03.23 12:16:40.389, CTRL, INFO,        0, , DB Version Update, 3.18 DB version 7, nothing to do
+WCCOAui      (1), 2026.03.23 12:16:41.547, SYS,  WARNING,     0, , Para. Demo period started 30 minutes
+WCCOAui      (1), 2026.03.23 12:16:42.070, SYS,  WARNING,    41/uim, Could not read panel reference. File C:\Sybcom\Project\Lamps\panels\House.pnl -> C:\Sybcom\Project\Lamps\panels\objects\Lamp.pnl seems to be corrupted.
+WCCILevent   (0), 2026.03.23 12:16:51.621, SYS,  WARNING,     0, , Demo period started 30 minutes
+WCCOAui      (1), 2026.03.23 12:16:51.659, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (1), 2026.03.23 12:16:51.660, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+nection closed
+WCCOAui      (1), 2026.03.23 12:16:51.661, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 12:16:51.662, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.23 12:16:51.663, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.23 12:16:51.824, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2026.03.23 12:17:10.754, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCILpmon    (1), 2026.03.23 12:17:11.456, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.23 12:17:11.462, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCOAui      (0), 2026.03.23 12:17:11.856, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAui      (0), 2026.03.23 12:17:22.835, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2026.03.23 12:17:22.837, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:17:22.838, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:17:22.845, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2026.03.23 12:17:22.849, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2026.03.23 12:17:22.850, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2026.03.23 12:17:22.852, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 12:17:22.854, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOAui      (1), 2026.03.23 12:17:22.855, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2026.03.23 12:17:22.856, SYS,  INFO,      103, User names/passwords initialized
+WCCOAui      (1), 2026.03.23 12:17:22.868, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2026.03.23 12:17:35.597, SYS,  WARNING,     0, , Para. Demo period started 30 minutes
+WCCILdata    (0), 2026.03.23 12:18:23.630, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2026.03.23 12:18:23.631, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.23 12:18:23.635, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2026.03.23 12:18:23.635, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2026.03.23 12:18:23.635, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2026.03.23 12:18:24.634, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2026.03.23 12:18:24.634, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2026.03.23 12:18:24.634, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2026.03.23 12:18:24.635, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2026.03.23 12:18:24.635, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2026.03.23 12:18:24.635, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2026.03.23 12:18:24.712, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILdatabg  (1), 2026.03.23 12:18:24.717, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2026.03.23 12:18:24.718, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:18:24.719, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:18:24.721, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2026.03.23 12:18:25.231, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2026.03.23 12:18:25.231, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILpmon    (1), 2026.03.23 12:41:32.759, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.23 12:41:32.760, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCOActrl    (2), 2026.03.23 12:41:32.760, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 12:41:32.760, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCOAui      (1), 2026.03.23 12:41:32.760, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 12:41:32.760, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 12:41:32.760, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILsim     (1), 2026.03.23 12:41:32.760, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOActrl    (1), 2026.03.23 12:41:32.761, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 12:41:32.761, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 12:41:32.761, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (5), 2026.03.23 12:41:32.761, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOAvalarch (4), 2026.03.23 12:41:32.762, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 12:41:32.762, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 12:41:32.762, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (3), 2026.03.23 12:41:32.762, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOAvalarch (2), 2026.03.23 12:41:32.763, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 12:41:32.763, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2026.03.23 12:41:32.763, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 12:41:32.763, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2026.03.23 12:41:32.764, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2026.03.23 12:41:32.804, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2026.03.23 12:41:32.804, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 12:41:32.804, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.23 12:41:32.805, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 12:41:32.805, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.23 12:41:32.805, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.23 12:41:32.805, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2026.03.23 12:41:32.807, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2026.03.23 12:41:32.807, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 12:41:32.807, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.23 12:41:32.807, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 12:41:32.807, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.23 12:41:32.808, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.23 12:41:32.808, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2026.03.23 12:41:32.838, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2026.03.23 12:41:32.924, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 12:41:32.925, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.23 12:41:32.925, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCOAui      (1), 2026.03.23 12:41:32.925, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 12:41:32.926, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.23 12:41:32.926, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 12:41:33.024, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (2), 2026.03.23 12:41:33.024, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 12:41:33.024, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 12:41:33.025, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 12:41:33.025, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 12:41:33.025, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 12:41:33.025, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2026.03.23 12:41:33.035, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2026.03.23 12:41:33.036, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (1), 2026.03.23 12:41:36.825, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2026.03.23 12:41:36.825, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 12:41:36.825, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.23 12:41:36.825, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2026.03.23 12:41:36.825, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.23 12:41:36.825, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCOAvalarch (1), 2026.03.23 12:41:36.825, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (1), 2026.03.23 12:41:36.825, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (5), 2026.03.23 12:41:36.825, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.23 12:41:36.825, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:5
+WCCOAvalarch (5), 2026.03.23 12:41:36.826, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2026.03.23 12:41:36.826, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (0), 2026.03.23 12:41:36.826, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 12:41:36.826, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.23 12:41:36.827, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:0
+WCCOAvalarch (0), 2026.03.23 12:41:36.826, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (0), 2026.03.23 12:41:36.827, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2026.03.23 12:41:36.827, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (4), 2026.03.23 12:41:36.841, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (2), 2026.03.23 12:41:36.841, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2026.03.23 12:41:36.841, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 12:41:36.841, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.23 12:41:36.841, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:4
+WCCOAvalarch (4), 2026.03.23 12:41:36.841, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.23 12:41:36.841, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCOAvalarch (4), 2026.03.23 12:41:36.842, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (2), 2026.03.23 12:41:36.842, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (4), 2026.03.23 12:41:36.842, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2026.03.23 12:41:36.842, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCOAvalarch (2), 2026.03.23 12:41:36.842, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 12:41:36.842, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:3
+WCCOAvalarch (2), 2026.03.23 12:41:36.842, SYS,  INFO,        2, Manager Stop
+t, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (3), 2026.03.23 12:41:36.843, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (3), 2026.03.23 12:41:36.843, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 12:41:36.899, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2026.03.23 12:41:36.900, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2026.03.23 12:41:36.945, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2026.03.23 12:41:36.947, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 12:41:36.947, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 12:41:36.948, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 12:41:36.956, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 12:41:37.007, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2026.03.23 12:41:37.954, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2026.03.23 12:41:37.954, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2026.03.23 12:41:37.954, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2026.03.23 12:41:37.954, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2026.03.23 12:41:37.955, SYS,  SEVERE,     39, Connection lost, (SYS: 1 Data -num 0 CONN: 1), exiting ...
+on closed
+WCCILdata    (0), 2026.03.23 12:41:37.955, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2026.03.23 12:41:37.955, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2026.03.23 12:41:37.956, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2026.03.23 12:41:37.956, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2026.03.23 12:41:38.963, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.23 12:41:38.969, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 12:41:39.071, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2026.03.23 12:41:39.072, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2026.03.23 12:41:39.944, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2026.03.23 12:41:40.051, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.23 12:41:40.052, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 12:54:25.744, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.23 12:54:25.896, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ Lamps -pmonIndex 1 
+WCCILdata    (0), 2026.03.23 12:54:26.064, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILdata    (0), 2026.03.23 12:54:26.075, SYS,  INFO,        0, , (Re)Opening databases in single user mode without transaction logging.
+WCCILdata    (0), 2026.03.23 12:54:27.071, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2026.03.23 12:54:27.071, SYS,  INFO,        0, , Initialize archive smoothing
+WCCILdata    (0), 2026.03.23 12:54:27.072, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.23 12:54:27.097, SYS,  INFO,        0, , Initializing last value cache
+WCCILdata    (0), 2026.03.23 12:54:27.128, SYS,  INFO,        0, , Loading internal datapoints
+WCCILdata    (0), 2026.03.23 12:54:27.129, SYS,  INFO,        0, , Initializing ID history
+WCCILdata    (0), 2026.03.23 12:54:27.129, SYS,  INFO,        0, , Initializing Alert history
+WCCILdata    (0), 2026.03.23 12:54:27.130, SYS,  INFO,        0, , Initializing Alert Class cache
+WCCILdata    (0), 2026.03.23 12:54:27.132, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:54:27.157, SYS,  INFO,        0, , Initializing Value Archives
+WCCILdata    (0), 2026.03.23 12:54:27.160, SYS,  INFO,        0, , ValueArchive will be used...
+WCCILpmon    (1), 2026.03.23 12:54:27.231, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 2 -num 0
+WCCOAvalarch (0), 2026.03.23 12:54:27.297, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (0), 2026.03.23 12:54:27.304, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (0), 2026.03.23 12:54:27.306, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:27.307, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:27.308, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 0
+WCCILdata    (0), 2026.03.23 12:54:27.318, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 2 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:54:27.450, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 3 -num 1
+WCCOAvalarch (1), 2026.03.23 12:54:27.651, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (1), 2026.03.23 12:54:27.658, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (1), 2026.03.23 12:54:27.660, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:27.662, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 3 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:27.664, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 1
+WCCILdata    (0), 2026.03.23 12:54:27.670, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 3 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:54:27.785, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 4 -num 2
+WCCOAvalarch (2), 2026.03.23 12:54:27.864, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (2), 2026.03.23 12:54:27.872, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (2), 2026.03.23 12:54:27.874, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:27.875, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 4 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:27.877, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 2
+WCCILdata    (0), 2026.03.23 12:54:27.877, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 4 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:54:28.003, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 5 -num 3
+WCCOAvalarch (3), 2026.03.23 12:54:28.074, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (3), 2026.03.23 12:54:28.081, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (3), 2026.03.23 12:54:28.083, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:28.084, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 5 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:28.085, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 3
+WCCILdata    (0), 2026.03.23 12:54:28.089, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 5 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:54:28.175, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 6 -num 4
+WCCOAvalarch (4), 2026.03.23 12:54:28.254, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (4), 2026.03.23 12:54:28.267, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (4), 2026.03.23 12:54:28.268, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:28.270, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 6 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:28.271, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 4
+WCCILdata    (0), 2026.03.23 12:54:28.276, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 6 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:54:28.406, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ Lamps -pmonIndex 7 -num 5
+WCCOAvalarch (5), 2026.03.23 12:54:28.584, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (5), 2026.03.23 12:54:28.597, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAvalarch (5), 2026.03.23 12:54:28.598, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:28.600, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 7 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:28.602, PARAM,INFO,        1, Manager Start, HistOrgMain, connection from archive received - initializing, archive number is: 5
+WCCILdata    (0), 2026.03.23 12:54:28.602, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 7 CONN: 1) initialised
+WCCILpmon    (1), 2026.03.23 12:54:29.725, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOAui(1) at index 12
+WCCILpmon    (1), 2026.03.23 12:54:29.731, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ Lamps -pmonIndex 12 -m gedi
+WCCOAui      (0), 2026.03.23 12:54:30.229, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOAvalarch (0), 2026.03.23 12:54:30.360, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:54:30.363, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2026.03.23 12:54:30.692, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:54:30.692, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (2), 2026.03.23 12:54:30.907, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:54:30.923, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (3), 2026.03.23 12:54:31.109, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:54:31.140, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (4), 2026.03.23 12:54:31.295, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:54:31.325, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (0), 2026.03.23 12:54:31.371, SYS,  INFO,        0, , Ready for operation.
+WCCOAui      (0), 2026.03.23 12:54:31.444, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2026.03.23 12:54:31.447, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:31.449, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:31.459, SYS,  INFO,        0, , Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2026.03.23 12:54:31.461, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2026.03.23 12:54:31.461, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAvalarch (5), 2026.03.23 12:54:31.631, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdata    (0), 2026.03.23 12:54:31.647, SYS,  INFO,        0, , Sending initial values to archive
+WCCOAvalarch (1), 2026.03.23 12:54:31.694, SYS,  INFO,        0, , Ready for operation.
+WCCILpmon    (1), 2026.03.23 12:54:31.732, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ Lamps -pmonIndex 8 
+WCCILevent   (0), 2026.03.23 12:54:31.802, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILevent   (0), 2026.03.23 12:54:31.834, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2026.03.23 12:54:31.836, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:31.837, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOAvalarch (2), 2026.03.23 12:54:31.911, SYS,  INFO,        0, , Ready for operation.
+WCCILdata    (0), 2026.03.23 12:54:31.975, SYS,  INFO,        0, , Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2026.03.23 12:54:31.976, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2026.03.23 12:54:31.976, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2026.03.23 12:54:31.998, SYS,  INFO,      168, Initialize 130 alerts
+WCCILevent   (0), 2026.03.23 12:54:32.015, SYS,  INFO,      103, User names/passwords initialized
+WCCILdata    (0), 2026.03.23 12:54:32.023, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2026.03.23 12:54:32.055, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ Lamps -pmonIndex 9 
+WCCOAvalarch (3), 2026.03.23 12:54:32.110, SYS,  INFO,        0, , Ready for operation.
+WCCOAvalarch (4), 2026.03.23 12:54:32.306, SYS,  INFO,        0, , Ready for operation.
+WCCOAui      (1), 2026.03.23 12:54:32.476, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 12:54:32.479, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOAui      (1), 2026.03.23 12:54:32.481, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2026.03.23 12:54:32.482, SYS,  INFO,      103, User names/passwords initialized
+WCCOAui      (1), 2026.03.23 12:54:32.491, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAvalarch (5), 2026.03.23 12:54:32.645, SYS,  INFO,        0, , Ready for operation.
+WCCILproxy   (1), 2026.03.23 12:54:40.026, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILproxy   (1), 2026.03.23 12:54:40.031, SYS,  INFO,        0, , Can maintain up to 4088 concurrent connections
+WCCILpmon    (1), 2026.03.23 12:54:40.221, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 10 -f pvss_scripts.lst
+WCCOActrl    (0), 2026.03.23 12:54:40.311, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (0), 2026.03.23 12:54:40.315, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (0), 2026.03.23 12:54:40.317, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:40.318, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:40.323, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2026.03.23 12:54:40.323, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2026.03.23 12:54:40.323, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2026.03.23 12:54:40.340, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 12:54:40.341, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOActrl    (1), 2026.03.23 12:54:40.341, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2026.03.23 12:54:40.342, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (1), 2026.03.23 12:54:40.344, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.23 12:54:40.443, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ Lamps -pmonIndex 11 
+WCCILsim     (1), 2026.03.23 12:54:40.530, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILsim     (1), 2026.03.23 12:54:40.534, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2026.03.23 12:54:40.536, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:40.537, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:40.558, SYS,  INFO,        0, , Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2026.03.23 12:54:40.559, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2026.03.23 12:54:40.560, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2026.03.23 12:54:40.573, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 12:54:40.575, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILsim     (1), 2026.03.23 12:54:40.577, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2026.03.23 12:54:40.672, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 -f Simulate.lst
+WCCOActrl    (2), 2026.03.23 12:54:40.854, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (2), 2026.03.23 12:54:40.859, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2026.03.23 12:54:40.860, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:40.861, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:54:40.870, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2026.03.23 12:54:40.871, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2026.03.23 12:54:40.872, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2026.03.23 12:54:40.886, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 12:54:40.887, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOActrl    (2), 2026.03.23 12:54:40.888, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2026.03.23 12:54:40.889, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (2), 2026.03.23 12:54:40.890, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.23 12:54:40.934, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCOActrl    (1), 2026.03.23 12:54:41.619, CTRL, INFO,        0, , DB Version Update, 3.18 DB version 7, nothing to do
+WCCOAui      (1), 2026.03.23 12:54:47.959, SYS,  WARNING,     0, , Para. Demo period started 30 minutes
+WCCILevent   (0), 2026.03.23 12:54:48.423, SYS,  WARNING,     0, , Demo period started 30 minutes
+WCCOActrl    (1), 2026.03.23 12:55:12.014, CTRL, INFO,        0, , Cyclic updateUserGroups running every 60 minutes.
+WCCOAui      (1), 2026.03.23 12:55:26.121, SYS,  WARNING,    41/uim, Could not read panel reference. Cannot open file C:\Sybcom\Project\Lamps\panels\Bathroom.pnl -> objects\Switcher.pnl
+WCCILdata    (0), 2026.03.23 12:55:40.946, SYS,  INFO,        0, , Closing databases...
+WCCILdata    (0), 2026.03.23 12:55:40.947, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.23 12:55:40.949, SYS,  INFO,        0, , Databases closed.
+WCCILdata    (0), 2026.03.23 12:55:40.949, SYS,  INFO,        0, , Opening databases...
+WCCILdata    (0), 2026.03.23 12:55:40.949, SYS,  INFO,        0, , (Re)Opening databases in multi user mode without transaction logging.
+WCCILdata    (0), 2026.03.23 12:55:41.942, SYS,  INFO,        0, , Databases opened.
+WCCILdata    (0), 2026.03.23 12:55:41.942, SYS,  INFO,        0, , Restoring last value cache...
+WCCILdata    (0), 2026.03.23 12:55:41.942, SYS,  INFO,        0, , Refreshing value DB list...
+WCCILdata    (0), 2026.03.23 12:55:41.943, SYS,  INFO,        0, , Refreshing alert DB list...
+WCCILdata    (0), 2026.03.23 12:55:41.943, SYS,  INFO,        0, , Reopening database done.
+WCCILdata    (0), 2026.03.23 12:55:41.943, SYS,  INFO,        0, , DataManager, startBgMgr, (Re)starting WCCILdatabg
+WCCILdatabg  (1), 2026.03.23 12:55:42.024, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCILdatabg  (1), 2026.03.23 12:55:42.028, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILdatabg  (1), 2026.03.23 12:55:42.031, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:55:42.032, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 1 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 12:55:42.035, SYS,  INFO,        0, , Manager (SYS: 1 Data -num 1 CONN: 1) initialised
+WCCILdatabg  (1), 2026.03.23 12:55:42.539, SYS,  INFO,        0, , DataBgDpIntern, openDatabases, Databases opened.
+WCCILdatabg  (1), 2026.03.23 12:55:42.539, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2026.03.23 12:56:41.656, CTRL, WARNING,    71, DP does not exist, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\Bathroom.pnl [Bathroom.pnl]
+    In reference: objects/LeakSensor.pnl Group: 7 named: "PANEL_REF7"
+    Script: ScopeLib
+    In panel scope library: C:\Sybcom\Project\Lamps\panels\objects\LeakSensor.pnl
+    Line: 28, dpSet, System1:BathroomLeakSensor.Alarms.LeakAlarm
+WCCOAui      (1), 2026.03.23 12:56:41.660, CTRL, WARNING,    71, DP does not exist, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\Bathroom.pnl [Bathroom.pnl]
+    In reference: objects/LeakSensor.pnl Group: 7 named: "PANEL_REF7"
+    Script: Initialize
+    In panel scope library: C:\Sybcom\Project\Lamps\panels\objects\LeakSensor.pnl
+    Line: 28, dpSet, System1:BathroomLeakSensor.Alarms.LeakAlarm
+WCCOAui      (1), 2026.03.23 13:03:22.019, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:03:22.019, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOActrl    (1), 2026.03.23 13:03:22.208, CTRL, INFO,        0, , AES creation: _AESConfigRow - _AESConfig, root, UI -num 1
+WCCOActrl    (1), 2026.03.23 13:03:24.277, CTRL, INFO,        0, , AES creation: _AESPropertiesRTRow_1__QuickTest__Top - _AESProperties, root, UI -num 1
+WCCOActrl    (1), 2026.03.23 13:03:25.316, CTRL, INFO,        0, , AES creation: _AESPropertiesRTRow_1__QuickTest__Bot - _AESProperties, root, UI -num 1
+WCCOAui      (1), 2026.03.23 13:03:26.586, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:03:26.586, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:03:26.674, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:03:26.674, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:03:39.509, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:03:43.919, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:03:43.920, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:03:44.826, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:03:47.868, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:03:47.869, CTRL, WARNING,    13/uim, 
+    Module: _QuickTest_
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House.pnl]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:11.108, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:04:11.108, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOActrl    (1), 2026.03.23 13:04:11.201, CTRL, INFO,        0, , AES creation: _AESPropertiesRTRow_1_Module_Top - _AESProperties, root, UI -num 1
+WCCOActrl    (1), 2026.03.23 13:04:12.237, CTRL, INFO,        0, , AES creation: _AESPropertiesRTRow_1_Module_Bot - _AESProperties, root, UI -num 1
+WCCOAui      (1), 2026.03.23 13:04:13.498, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:13.498, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:13.587, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:13.588, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:28.955, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:04:28.955, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:04:29.168, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:29.168, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:29.256, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:29.256, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:36.223, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:36.223, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:36.406, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:37.878, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:39.231, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:47.511, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:04:47.511, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:04:47.718, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:47.718, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:47.804, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:47.804, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:56.460, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:04:56.460, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:04:56.667, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:56.668, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:56.752, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:56.753, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:58.893, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:04:58.893, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:04:59.125, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:59.126, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:04:59.208, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:04:59.209, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:05.728, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:08:05.728, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:08:06.006, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:06.007, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:06.095, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:06.095, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:11.766, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:08:11.766, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:08:11.988, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:11.989, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:12.076, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:12.076, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:16.758, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:16.758, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:18.016, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:18.017, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:25.488, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:08:25.488, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:08:25.703, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:25.704, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:25.794, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:25.794, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:42.111, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:08:42.111, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:08:42.320, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:42.320, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:42.404, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:08:42.405, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:08:51.085, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:12.456, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:09:12.456, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:09:12.684, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:12.684, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:12.772, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:12.772, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:36.186, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:09:36.186, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:09:36.399, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:36.400, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:36.485, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:36.486, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:42.143, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:42.144, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:43.099, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:09:43.099, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:09:43.323, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:43.324, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:43.410, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:43.410, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:44.544, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:09:44.544, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:09:44.790, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:44.791, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:44.872, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:44.872, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:49.608, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:49.608, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:09:50.731, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:09:50.731, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:10:04.044, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:10:04.044, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:10:04.263, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:10:04.263, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:10:04.362, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:10:04.363, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:10:05.757, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:10:05.757, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:10:05.977, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:10:05.977, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:10:06.075, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:10:06.075, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:10:18.231, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:10:18.231, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:10:18.464, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:10:18.465, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:10:18.549, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:10:18.550, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:11:02.138, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:11:02.138, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:11:02.400, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:02.400, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:11:02.485, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:02.485, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCILpmon    (1), 2026.03.23 13:11:13.844, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.23 13:11:13.845, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCOActrl    (2), 2026.03.23 13:11:13.845, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOActrl    (2), 2026.03.23 13:11:13.942, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (2), 2026.03.23 13:11:13.944, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:11:13.944, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 13:11:13.945, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 13:11:13.948, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 13:11:13.949, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2026.03.23 13:11:13.970, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 13:11:14.067, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #1
+WCCILpmon    (1), 2026.03.23 13:11:14.160, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 -f Simulate.lst
+WCCOActrl    (2), 2026.03.23 13:11:14.336, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (2), 2026.03.23 13:11:14.340, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2026.03.23 13:11:14.342, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 13:11:14.343, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 13:11:14.362, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2026.03.23 13:11:14.364, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2026.03.23 13:11:14.364, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2026.03.23 13:11:14.365, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 13:11:14.366, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOActrl    (2), 2026.03.23 13:11:14.367, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2026.03.23 13:11:14.367, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (2), 2026.03.23 13:11:14.369, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.23 13:11:21.417, SYS,  INFO,       26/pmon, Got KILL command (SIGKILL) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.23 13:11:21.417, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGKILL
+WCCILevent   (0), 2026.03.23 13:11:21.433, SYS,  WARNING,    39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection reset by peer (10054)
+WCCILpmon    (1), 2026.03.23 13:11:21.525, SYS,  INFO,       11/pmon, Detected stopped manager WCCOActrl(2) - restarting it #2
+WCCILpmon    (1), 2026.03.23 13:11:21.535, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 -f Simulate.lst
+WCCOActrl    (2), 2026.03.23 13:11:21.628, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (2), 2026.03.23 13:11:21.633, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2026.03.23 13:11:21.635, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 13:11:21.636, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 13:11:21.650, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2026.03.23 13:11:21.651, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2026.03.23 13:11:21.652, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2026.03.23 13:11:21.664, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 13:11:21.666, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOActrl    (2), 2026.03.23 13:11:21.667, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2026.03.23 13:11:21.668, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (2), 2026.03.23 13:11:21.669, SYS,  INFO,      102, Waiting for user names/passwords
+WCCILpmon    (1), 2026.03.23 13:11:29.854, SYS,  INFO,       25/pmon, Got STOP command (SIGTERM) from ::1, stopping the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.23 13:11:29.855, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCOActrl    (2), 2026.03.23 13:11:29.855, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOActrl    (2), 2026.03.23 13:11:30.797, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (2), 2026.03.23 13:11:30.797, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:11:30.797, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 13:11:30.798, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 13:11:30.798, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 13:11:30.798, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 13:11:30.798, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2026.03.23 13:11:30.805, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 13:11:30.845, SYS,  INFO,       12/pmon, Manager WCCOActrl(2) restarting too rapidly - giving up restarting
+WCCILpmon    (1), 2026.03.23 13:11:35.001, SYS,  INFO,       24/pmon, Got START command from ::1, starting the manager WCCOActrl(2) at index 13
+WCCILpmon    (1), 2026.03.23 13:11:35.007, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ Lamps -pmonIndex 13 -num 2 -f Simulate.lst
+WCCOActrl    (2), 2026.03.23 13:11:35.079, SYS,  INFO,        1, Manager Start, PROJ, Lamps, V 3.18 - 3.18   platform Windows AMD64 linked at Nov 10 2021 20:28:52 (a061d04d4492)
+WCCOActrl    (2), 2026.03.23 13:11:35.081, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (2), 2026.03.23 13:11:35.083, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 13:11:35.085, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILdata    (0), 2026.03.23 13:11:35.087, SYS,  INFO,        0, , Manager (SYS: 1 Ctrl -num 2 CONN: 1) initialised
+WCCOActrl    (2), 2026.03.23 13:11:35.089, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (2), 2026.03.23 13:11:35.089, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (2), 2026.03.23 13:11:35.090, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCILevent   (0), 2026.03.23 13:11:35.092, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 2 CONN: 1) @ DESKTOP-I9JN03K (::1)
+WCCOActrl    (2), 2026.03.23 13:11:35.093, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (2), 2026.03.23 13:11:35.093, SYS,  INFO,      103, User names/passwords initialized
+WCCOActrl    (2), 2026.03.23 13:11:35.095, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2026.03.23 13:11:40.590, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:11:40.590, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:11:40.862, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:40.863, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:11:40.948, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:40.949, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:11:42.418, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:11:42.418, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:11:42.637, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:42.637, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:11:42.735, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:42.735, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:11:45.461, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:11:45.461, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:11:45.690, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:45.690, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:11:45.775, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:45.776, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:11:48.542, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:48.542, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:11:49.671, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:11:49.671, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:13:44.221, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:13:44.221, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:13:44.435, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:13:44.435, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:13:44.521, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:13:44.522, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:13:52.891, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:13:52.891, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:13:53.149, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:13:53.149, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:13:53.238, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:13:53.239, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:13:58.104, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:14:00.145, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:14:00.450, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:14:00.450, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:14:01.189, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:14:02.451, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:14:03.490, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Clicked
+    Line: 18, In "setMultiValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:16:02.473, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:16:02.473, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:16:02.769, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:16:02.770, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:16:02.853, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:16:02.853, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:16:05.553, PARAM,WARNING,    81, Syntax error, $-Parameter, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+
+WCCOAui      (1), 2026.03.23 13:16:05.553, CTRL, WARNING,    51, Parameter incorrect, did not find the $-parameter, $SCREENTYPE
+WCCOAui      (1), 2026.03.23 13:16:05.806, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:16:05.807, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCOAui      (1), 2026.03.23 13:16:05.893, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4251, In "setValue": Object "as_lineCount" does not exist
+WCCOAui      (1), 2026.03.23 13:16:05.893, CTRL, WARNING,    13/uim, 
+    Module: Module
+    Panel: C:\Sybcom\Project\Lamps\panels\House.pnl [House]
+    Object: 1 named: "table_top" of type: TABLE (PANEL_REF7.table_top)
+    In reference: vision/aes/AESRow.pnl Group: 6 named: "PANEL_REF7"
+    Script: Initialize
+    Library: C:\Sybcom\Kaskad\3.18\scripts\libs\aes.ctl
+    Line: 4255, In "setValue": Object "ar_currentLine" does not exist
+WCCILpmon    (1), 2026.03.23 13:16:23.005, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.23 13:16:23.005, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCOActrl    (2), 2026.03.23 13:16:23.005, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 13:16:23.005, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCOAui      (1), 2026.03.23 13:16:23.006, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 13:16:23.006, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILsim     (1), 2026.03.23 13:16:23.006, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+ signal SIGTERM
+WCCOActrl    (1), 2026.03.23 13:16:23.007, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 13:16:23.007, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCOAvalarch (5), 2026.03.23 13:16:23.007, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 13:16:23.007, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCOAvalarch (4), 2026.03.23 13:16:23.008, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 13:16:23.008, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCOAvalarch (3), 2026.03.23 13:16:23.009, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 13:16:23.008, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCOAvalarch (2), 2026.03.23 13:16:23.009, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 13:16:23.009, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCOAvalarch (1), 2026.03.23 13:16:23.009, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILpmon    (1), 2026.03.23 13:16:23.009, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCOAvalarch (0), 2026.03.23 13:16:23.010, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2026.03.23 13:16:23.052, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:23.053, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 13:16:23.054, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.23 13:16:23.054, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2026.03.23 13:16:23.055, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2026.03.23 13:16:23.057, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2026.03.23 13:16:23.058, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:23.058, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.23 13:16:23.058, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 13:16:23.058, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.23 13:16:23.059, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.03.23 13:16:23.059, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2026.03.23 13:16:23.068, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (2), 2026.03.23 13:16:23.069, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:23.069, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 13:16:23.069, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 2 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 13:16:23.069, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 13:16:23.070, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (2), 2026.03.23 13:16:23.070, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (2), 2026.03.23 13:16:23.080, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2026.03.23 13:16:23.096, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2026.03.23 13:16:23.552, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (1), 2026.03.23 13:16:23.552, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:23.552, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.23 13:16:23.553, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 13:16:23.553, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.23 13:16:23.553, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2026.03.23 13:16:23.717, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (4), 2026.03.23 13:16:27.062, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (5), 2026.03.23 13:16:27.062, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:27.062, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 6 CONN: 1), Connection closed
+WCCOAvalarch (4), 2026.03.23 13:16:27.062, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.23 13:16:27.062, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:4
+WCCILdata    (0), 2026.03.23 13:16:27.062, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 7 CONN: 1), Connection closed
+WCCOAvalarch (4), 2026.03.23 13:16:27.062, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2026.03.23 13:16:27.062, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:27.063, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:5
+WCCOAvalarch (5), 2026.03.23 13:16:27.063, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (4), 2026.03.23 13:16:27.063, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2026.03.23 13:16:27.063, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 2 CONN: 1), Connection closed
+WCCOAvalarch (5), 2026.03.23 13:16:27.063, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:27.063, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:0
+WCCOAvalarch (0), 2026.03.23 13:16:27.063, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAvalarch (5), 2026.03.23 13:16:27.063, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (0), 2026.03.23 13:16:27.063, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (0), 2026.03.23 13:16:27.063, SYS,  INFO,        2, Manager Stop
+WCCOAvalarch (3), 2026.03.23 13:16:27.077, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (1), 2026.03.23 13:16:27.077, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (2), 2026.03.23 13:16:27.077, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:27.078, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 5 CONN: 1), Connection closed
+WCCOAvalarch (3), 2026.03.23 13:16:27.078, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.23 13:16:27.078, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:3
+WCCOAvalarch (3), 2026.03.23 13:16:27.078, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:27.078, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 3 CONN: 1), Connection closed
+WCCOAvalarch (3), 2026.03.23 13:16:27.078, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2026.03.23 13:16:27.078, PARAM,INFO,        2, Manager Stop, HistOrgMain, archive is now offline, archive number is:1
+WCCOAvalarch (1), 2026.03.23 13:16:27.078, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdata    (0), 2026.03.23 13:16:27.079, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 4 CONN: 1), Connection closed
+WCCOAvalarch (1), 2026.03.23 13:16:27.079, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (1), 2026.03.23 13:16:27.079, SYS,  INFO,        2, Manager Stop
+t, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+
+WCCOAvalarch (2), 2026.03.23 13:16:27.079, SYS,  INFO,       39, Connection lost, (SYS: 1 Data -num 0 CONN: 1)
+WCCOAvalarch (2), 2026.03.23 13:16:27.079, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 13:16:27.169, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2026.03.23 13:16:27.169, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2026.03.23 13:16:27.184, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2026.03.23 13:16:27.184, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdata    (0), 2026.03.23 13:16:27.184, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 13:16:27.185, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.03.23 13:16:27.194, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 13:16:27.279, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILdata    (0), 2026.03.23 13:16:28.197, SYS,  INFO,        0, , DataManager, stopBgMgr, Stopping WCCILdatabg
+WCCILdata    (0), 2026.03.23 13:16:28.197, SYS,  INFO,        0, , DataManager, stopBgMgr, Waiting for closed connection
+WCCILdata    (0), 2026.03.23 13:16:28.197, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 1 CONN: 1)
+WCCILdatabg  (1), 2026.03.23 13:16:28.197, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILdatabg  (1), 2026.03.23 13:16:28.198, SYS,  SEVERE,     39, Connection lost, (SYS: 1 Data -num 0 CONN: 1), exiting ...
+on closed
+WCCILdata    (0), 2026.03.23 13:16:28.198, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdata    (0), 2026.03.23 13:16:28.198, SYS,  WARNING,    65, Wrong destination address, (SYS: 1 Event -num 0 CONN: 1), DP_MSG_COMPLEX_VC
+WCCILdatabg  (1), 2026.03.23 13:16:28.199, SYS,  INFO,        0, , DataBgDpIntern, closeDatabases, Databases closed.
+WCCILdatabg  (1), 2026.03.23 13:16:28.199, SYS,  INFO,        2, Manager Stop
+WCCILdata    (0), 2026.03.23 13:16:29.215, SYS,  INFO,        0, , Loading DpIdentification
+WCCILdata    (0), 2026.03.23 13:16:29.219, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 13:16:29.306, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2026.03.23 13:16:29.307, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2026.03.23 13:16:29.964, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILpmon    (1), 2026.03.23 13:16:30.026, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.23 13:16:30.027, SYS,  INFO,        2, Manager Stop
