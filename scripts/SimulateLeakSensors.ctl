@@ -36,5 +36,6 @@ private void changeValue(string dp){
   dpGet(dp, value);
 
   //Установка новых показаний датчика
+  dpSet(dp, value);
   dpSet(dp, !value);
 }

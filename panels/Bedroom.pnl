@@ -257,11 +257,11 @@ LANG:10027 0
 "layoutAlignment" "AlignNone"
 "dashclr"N "_Transparent"
 "antiAliased" "1"
-E E 0 1 3 2 1 E  1030 187 1030 504.0000000000001
+E E 0 1 3 2 1 E  1030 187 1030 488.0000000000001
 4 56
 "LINE12"
 ""
-1 942.4106249999999 504.3333333333334 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+1 948.6314612926135 488.3333333333335 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
  E E
 32 0 0 0 0 0
 E E E
@@ -274,7 +274,7 @@ LANG:10027 0
 "layoutAlignment" "AlignNone"
 "dashclr"N "_Transparent"
 "antiAliased" "1"
-E E 0 1 3 2 1 E  942 504 1030 504
+E E 0 1 3 2 1 E  948.25 488.0000000000001 1030 488.0000000000001
 6 103
 "RECTANGLE5"
 ""
@@ -292,17 +292,17 @@ LANG:10027 0
 "dashclr"N "_Transparent"
 "antiAliased" "0"
 E E 0 1 3 2 1 E 1 0 1 -3.218750000000199 0 1 E 60 310 417 250.6666666666667
-1 106 10 "" 1
-0
-1 108 11 "" 1
-0
-1 110 12 "" 1
-0
 1 112 13 "" 1
 0
 1 113 14 "" 1
 0
 1 114 15 "" 1
+0
+1 115 17 "" 2
+0
+1 117 18 "" 2
+0
+1 119 19 "" 2
 0
 0
 LAYER, 1 
@@ -310,6 +310,12 @@ LAYER, 1
 LANG:10001 0 
 LANG:10027 0 
 1 104 9 "" 0
+0
+1 116 17 "" 1
+0
+1 118 18 "" 1
+0
+1 120 19 "" 1
 0
 0
 LAYER, 2 
@@ -350,24 +356,6 @@ LANG:10027 0
 "$b_IBit""TRUE"
 "$b_ShowInfo""TRUE"
 "$dpe_value""System1:BedroomLightSensor.Inputs.LightLevel"
-3 10 "PANEL_REF21" -1
-"layoutAlignment" "AlignNone"
-"" ""
-"objects/Lamp.pnl" 431.5 99.5 T 54 1 0 1 4.636874999999918 -45.51041666666663
-1
-"$dp""BedroomLamp1"
-3 11 "PANEL_REF22" -1
-"layoutAlignment" "AlignNone"
-"" ""
-"objects/Lamp.pnl" 714 145.5000000000001 T 55 1 0 1 14.5 -91.00000000000006
-1
-"$dp""BedroomLamp2"
-3 12 "PANEL_REF23" -1
-"layoutAlignment" "AlignNone"
-"" ""
-"objects/Lamp.pnl" 643.5 291 T 56 1 0 1 107.4106249999999 -21.16666666666657
-1
-"$dp""BedroomLamp3"
 3 13 "PANEL_REF24" -1
 "layoutAlignment" "AlignNone"
 "" ""
@@ -392,4 +380,28 @@ LANG:10027 0
 9 
 "layoutAlignment" "AlignNone"
 "" ""
+3 17 "PANEL_REF27" -1
+"layoutAlignment" "AlignNone"
+"UDP DisplayShadows" "bool TRUE"
+"" ""
+"Widgets/Lamp.pnl" 756 366.9895833333334 T 59 0.5947368421052631 0 0.6040833333333331 246.4105592105263 77.83833420138896
+2
+"$lampDpName""BedroomLamp1"
+"$lightSensorName""BedroomLightSensor"
+3 18 "PANEL_REF28" -1
+"layoutAlignment" "AlignNone"
+"UDP DisplayShadows" "bool TRUE"
+"" ""
+"Widgets/Lamp.pnl" 771 567.5 T 60 0.5947368421052631 0 0.6040833333333331 558.1026315789474 169.3018750000003
+2
+"$lampDpName""BedroomLamp2"
+"$lightSensorName""BedroomLightSensor"
+3 19 "PANEL_REF29" -1
+"layoutAlignment" "AlignNone"
+"UDP DisplayShadows" "bool TRUE"
+"" ""
+"Widgets/Lamp.pnl" 898.5000000000001 466.9895833333334 T 61 0.5947368421052631 0 0.6040833333333331 454.0236842105264 17.94041753472229
+2
+"$lampDpName""BedroomLamp3"
+"$lightSensorName""BedroomLightSensor"
 0
