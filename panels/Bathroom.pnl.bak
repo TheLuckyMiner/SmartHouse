@@ -12,7 +12,7 @@ E E 5
 "pdpi" "141.585"
 "sizePolicy" "Fixed Fixed"
 0 0 0
-"Bathroom.png" -1 -1 1100 377
+"Bathroom.png" -1 -1 1074 377
 -1
 DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
 LAYER, 0 
@@ -36,10 +36,6 @@ LANG:10027 0
 "dashclr"N "_Transparent"
 "antiAliased" "1"
 E E 0 1 3 2 1 E  1030 280 1030 330
-1 10 0 "" 1
-0
-1 12 1 "" 1
-0
 4 5
 "LINE2"
 ""
@@ -160,12 +156,49 @@ LANG:10027 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
 0  100 
 N {0,0,0} 0 0 1 0 1 150 1 5 5 1 2
 0
+13 16
+"PUSH_BUTTON1"
+""
+1 989.75 258 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
+ E E
+13 0 0 0 0 0
+E E E
+8
+2
+LANG:10001 0 
+LANG:10027 0 
+
+1
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  987.75 252 1072 282
+
+T 
+2
+LANG:10001 6 On/Off
+LANG:10027 15 Вкл/Выкл
+"//Инициализация констант
+string DP_LAMP_SWITCH = \"System1:BathroomLamp1.Commands.Switch\";
+
+main(mapping event)
+{
+  bool lampSwitchValue;
+  dpGet(DP_LAMP_SWITCH, lampSwitchValue);
+  dpSet(DP_LAMP_SWITCH, !lampSwitchValue);
+}" 0
+ E E E
+1 19 5 "" 2
+0
 0
 LAYER, 1 
 2
 LANG:10001 0 
 LANG:10027 0 
-1 13 3 "" 0
+1 17 3 "" 0
+0
+1 20 5 "" 1
 0
 0
 LAYER, 2 
@@ -198,19 +231,7 @@ LAYER, 7
 LANG:10001 0 
 LANG:10027 0 
 0
-3 0 "PANEL_REF1" -1
-"layoutAlignment" "AlignNone"
-"" ""
-"objects/Lamp.pnl" 740 120 T 0 1 0 1 1.5 -24.5
-1
-"$dp""BathroomLamp1"
-3 1 "PANEL_REF2" -1
-"layoutAlignment" "AlignNone"
-"" ""
-"objects/LightSwitch.pnl" 1010 230 T 1 1 0 1 0 -16.36398467432957
-1
-"$dp""BathroomLamp1"
-3 3 "PANEL_REF3" -1
+3 3 "PANEL_REF3" 4
 "layoutAlignment" "AlignNone"
 "" ""
 "objects/STD_VALUES/value_3.pnl" 199 97.99999999999994 T 4 2.536484551113194 0 2.064196200510851 -260.8529019815787 55.73447477650123
@@ -218,4 +239,18 @@ LANG:10027 0
 "$b_IBit""TRUE"
 "$b_ShowInfo""TRUE"
 "$dpe_value""System1:BathroomLeakSensor.Inputs.IsLeak"
+1 4 "SHAPE_GROUP1" -1
+4 1 
+9 6 8 7 
+3 
+"layoutAlignment" "AlignNone"
+"" ""
+3 5 "PANEL_REF4" -1
+"layoutAlignment" "AlignNone"
+"UDP DisplayShadows" "bool TRUE"
+"" ""
+"objects/Lamp.pnl" 959 412.0392720306513 T 14 0.7315789473684199 0 0.7583333333333331 280.7973684210536 83.19728607918265
+2
+"$lampDpName""BathroomLamp1"
+"$lightSensorName"""
 0
