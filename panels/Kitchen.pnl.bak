@@ -43,9 +43,7 @@ LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
 0 2
 LANG:10001 2 IT
 LANG:10027 3 KIT
-1 11 0 "" 1
-0
-1 13 1 "" 1
+1 25 0 "" 2
 0
 4 16
 "LINE2"
@@ -207,23 +205,27 @@ LANG:10027 0
 1 1 "%H:%M:%S" "%x" 0 1 0 0 
 E 1 0 0 0 90 1 20 180
 2
-LANG:10001 36 MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0
-LANG:10027 36 MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0
+LANG:10001 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
+LANG:10027 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
 0  2
-LANG:10001 36 MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0
-LANG:10027 36 MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0
+LANG:10001 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
+LANG:10027 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
 0  2
-LANG:10001 36 MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0
-LANG:10027 36 MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0
+LANG:10001 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
+LANG:10027 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
 0  100 
 N {0,0,0} 0 0 1 0 1 150 1 5 5 1 2
+0
+1 30 4 "" 1
 0
 0
 LAYER, 1 
 2
 LANG:10001 0 
 LANG:10027 0 
-1 25 3 "" 0
+1 28 3 "" 0
+0
+1 26 0 "" 1
 0
 0
 LAYER, 2 
@@ -258,17 +260,14 @@ LANG:10027 0
 0
 3 0 "PANEL_REF1" -1
 "layoutAlignment" "AlignNone"
+"UDP DisplayLampStand" "bool TRUE"
+"UDP DisplayShadows" "bool TRUE"
 "" ""
-"objects/Lamp.pnl" 570 90 T 2 1 0 1 198.5 0
-1
-"$dp""KitchenLamp1"
-3 1 "PANEL_REF2" -1
-"layoutAlignment" "AlignNone"
-"" ""
-"objects/LightSwitch.pnl" 890 255 T 3 1 0 1 43 -208
-1
-"$dp""KitchenLamp1"
-3 3 "PANEL_REF3" 4
+"objects/Lamp.pnl" 570 90 T 2 0.5789473684210539 0 0.5903251915708806 699.9999999999993 276.8707327586208
+2
+"$lampDpName""KitchenLamp1"
+"$lightSensorName"""
+3 3 "PANEL_REF3" -1
 "layoutAlignment" "AlignNone"
 "" ""
 "objects/STD_VALUES/value_3.pnl" 199 97.99999999999994 T 13 2.536484551113194 0 2.064196200510851 -261.8529019815787 48.02614144316792
@@ -276,10 +275,10 @@ LANG:10027 0
 "$b_IBit""TRUE"
 "$b_ShowInfo""TRUE"
 "$dpe_value""System1:KitchenLeakSensor.Inputs.IsLeak"
-1 4 "SHAPE_GROUP1" -1
-4 1 
-21 22 23 24 
-3 
+3 4 "PANEL_REF4" -1
 "layoutAlignment" "AlignNone"
 "" ""
+"objects/Switcher.pnl" 703.9999999999999 53.5 T 18 0.5375 0 0.5088235294117648 539.35 16.45441176470589
+1
+"$switchItem""KitchenLamp1"
 0

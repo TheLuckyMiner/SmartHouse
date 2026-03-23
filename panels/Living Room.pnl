@@ -18,7 +18,7 @@ LAYER, 0
 2
 LANG:10001 0 
 LANG:10027 0 
-1 16 0 "" 1
+1 29 0 "" 2
 0
 4 6
 "LINE1"
@@ -88,8 +88,6 @@ LANG:10027 0
 "dashclr"N "_Transparent"
 "antiAliased" "1"
 E E 0 1 3 2 1 E  920 196.8333333333336 920 120
-1 18 1 "" 1
-0
 23 12
 "TREND1"
 ""
@@ -195,12 +193,43 @@ LANG:10027 0
 "dashclr"N "_Transparent"
 "antiAliased" "0"
 E E 0 1 3 2 1 E 0.9245463228271252 0 0.9295019157088128 31.89135625596926 15.58045977011506 1 E 60 310 417 250.6666666666667
+1 33 5 "" 1
 0
+29 28
+"ToggleSwitch_ewo1"
+""
+1 224.6769404166735 71.7083333333334 E E E 1 E 1 E N "_3DText" E N "_3DFace" E E
+ E E
+14 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+2
+"skin" "enum 1"
+"layoutAlignment" "AlignNone"
+2
+LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
+0  224.6769404166735 71.7083333333334 314.0308212500205 158.541666666667
+16 ToggleSwitch.ewo
+1
+0 "toggled" "(bool on)"
+"  //Инициализация константных значений
+  string DP_LISTEN_SENSOR = \"System1:LivingRoomLamp1.Commands.ListenSensor\";
+
+  //Присвоение новых значений прослушки датчика освещенности
+  dpSet(DP_LISTEN_SENSOR, on);"
+E0
 LAYER, 1 
 2
 LANG:10001 0 
 LANG:10027 0 
-1 19 3 "" 0
+1 31 3 "" 0
+0
+1 30 0 "" 1
 0
 0
 LAYER, 2 
@@ -235,16 +264,13 @@ LANG:10027 0
 0
 3 0 "PANEL_REF1" -1
 "layoutAlignment" "AlignNone"
+"UDP DisplayLampStand" "bool TRUE"
+"UDP DisplayShadows" "bool TRUE"
 "" ""
-"objects/Lamp.pnl" 760 290 T 1 1 0 1 22.5 -22.89999999999975
-1
-"$dp""LivingRoomLamp1"
-3 1 "PANEL_REF2" -1
-"layoutAlignment" "AlignNone"
-"" ""
-"objects/LightSwitch.pnl" 884.9999990463257 50 T 7 1 0 1 15.00000095367432 0
-1
-"$dp""LivingRoomLamp1"
+"objects/Lamp.pnl" 760 290 T 1 0.5868421052631578 0 0.5728000000000025 599.3618421052632 339.7839999999996
+2
+"$lampDpName""LivingRoomLamp1"
+"$lightSensorName""LivingRoomLightSensor"
 3 3 "PANEL_REF3" 4
 "layoutAlignment" "AlignLeft|AlignLeading"
 "" ""
@@ -259,4 +285,10 @@ LANG:10027 0
 3 
 "layoutAlignment" "AlignNone"
 "" ""
+3 5 "PANEL_REF4" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/Switcher.pnl" 695 58.00000000000001 T 13 0.4687500000000007 0 0.4588235294117647 566.0937499999993 24.56470588235295
+1
+"$switchItem""LivingRoomLamp1"
 0

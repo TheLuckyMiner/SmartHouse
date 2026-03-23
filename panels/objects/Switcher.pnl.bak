@@ -1,0 +1,315 @@
+V 14
+2
+LANG:10001 0 
+LANG:10027 0 
+PANEL,-1 -1 204 225 N "_3DFace" 1
+"$switchItem"
+"main()
+{
+  switchBtn.connectSwitches();
+}" 0
+ E E E E 1 -1 -1 0  20 20
+""0  1
+E "class SwitchBtn{
+  //Инициализация константных значений
+  private dyn_string TURN_ON_PLANES = makeDynString(\"Switch1_1\", \"Switch1_2\", \"Switch1_3\");
+  private dyn_string TURN_OFF_PLANES = makeDynString(\"Switch2_1\", \"Switch2_2\", \"Switch2_3\");
+  private string DP_SWITCH = \"System1:\"+$switchItem+\".Commands.Switch\";
+
+  /*
+    Входные значения: -
+    Выходные значения: -
+
+    Метод подключает прослушку команды включения лампочки
+  */
+  public void connectSwitches(){
+    if(dpExists(this.DP_SWITCH)){
+      dpConnect(\"setCondition\", this.DP_SWITCH);
+    }
+  }
+
+  /*
+    Входные данные:
+      string dp - ссылка на датапоинт
+      bool isTurnOn - новое состояние команды включения лампочки
+    Выходные данные: -
+
+    Метод меняет внешний вид переключателя для отображения включенного
+    или выключенного состояний.
+  */
+  private void setCondition(string dp, bool isTurnOn){
+    dyn_string planesToShow;
+    dyn_string planesToHide;
+
+    if(isTurnOn){
+      planesToShow = this.TURN_ON_PLANES;
+      planesToHide = this.TURN_OFF_PLANES;
+    } else {
+      planesToShow = this.TURN_OFF_PLANES;
+      planesToHide = this.TURN_ON_PLANES;
+    }
+    for(int planeIndex = 1; planeIndex<=dynlen(planesToShow); planeIndex++){
+      setValue(planesToShow[planeIndex], \"visible\", TRUE);
+    }
+
+    for(int planeIndex = 1; planeIndex<=dynlen(planesToHide); planeIndex++){
+      setValue(planesToHide[planeIndex], \"visible\", FALSE);
+    }
+  }
+
+  /*
+    Входные данные: -
+    Выходные данные: -
+
+    Метод меняет значение команды включения лампочки на TRUE.
+  */
+  public void turnOn(){
+    if(dpExists(this.DP_SWITCH)){
+      dpSet(this.DP_SWITCH, TRUE);
+    }
+  }
+
+  /*
+    Входные данные: -
+    Выходные данные: -
+
+    Метод меняет значение команды включения лампочки на FALSE.
+  */
+  public void turnOff(){
+    if(dpExists(this.DP_SWITCH)){
+      dpSet(this.DP_SWITCH, FALSE);
+    }
+  }
+};
+
+//Объявление глобальной переменной переключателя.
+public SwitchBtn switchBtn;" 0
+ 4
+"CBRef" "1"
+"EClose" E
+"dpi" "96"
+"pdpi" "92.6073"
+0 0 0
+""
+DISPLAY_LAYER, 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0
+LAYER, 0 
+2
+LANG:10001 0 
+LANG:10027 0 
+6 1
+"RECTANGLE1"
+""
+1 20 20 E E E 1 E 1 E N "_Transparent" E N "STD_param_panel_back" E E
+ E E
+0 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "0"
+E E 0 1 3 2 1 E 1.066666666666667 0 1.133333333333333 -21.33333333333334 -22.66666666666666 1 E 20 20 170 170
+10 6
+"Switch1_1"
+""
+1 20 20 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+5 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E "main(mapping event)
+{
+  switchBtn.turnOff();
+}" 0
+ 0 1 3 2 1 E 1 0 1 4 2.000000000000028 1 E 4 20 20
+10 130
+120 130
+130 20
+ 1
+10 7
+"Switch1_2"
+""
+1 10 130 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+6 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E "main(mapping event)
+{
+  switchBtn.turnOff();
+}" 0
+ 0 1 3 2 1 E 1 0 1 4 2 1 E 4 10 130
+20 140
+130 140
+120 130
+ 1
+10 8
+"Switch1_3"
+""
+1 130 20 E E E 1 E 1 E N {0,0,0} E N {255,255,255} E E
+ E E
+7 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+E "main(mapping event)
+{
+  switchBtn.turnOff();
+}" 0
+ 0 1 3 2 1 E 1 0 1 4 2 1 E 3 130 20
+130 140
+120 130
+ 1
+10 13
+"Switch2_1"
+""
+1 200 329 E E E 1 E 0 E N {0,0,0} E N {255,255,255} E E
+ E E
+12 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  string dp = \"System1:\"+$switchItem+\".Commands.TurnOn\";
+
+}" 0
+ "main(mapping event)
+{
+  switchBtn.turnOn();
+}" 0
+ 0 1 3 2 1 E 1 0 1 -176 -188 1 E 4 200 329
+190 220
+300 220
+310 329
+ 1
+10 14
+"Switch2_2"
+""
+1 190 220 E E E 1 E 0 E N {0,0,0} E N {255,255,255} E E
+ E E
+13 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  string dp = \"System1:\"+$switchItem+\".Commands.TurnOn\";
+
+}" 0
+ "main(mapping event)
+{
+  switchBtn.turnOn();
+}" 0
+ 0 1 3 2 1 E 1 0 1 -176 -188 1 E 4 190 220
+200 210
+310 210
+300 220
+ 1
+10 15
+"Switch2_3"
+""
+1 310 210 E E E 1 E 0 E N {0,0,0} E N {255,255,255} E E
+ E E
+14 0 0 0 0 0
+E E E
+0
+2
+LANG:10001 0 
+LANG:10027 0 
+
+3
+"layoutAlignment" "AlignNone"
+"dashclr"N "_Transparent"
+"antiAliased" "1"
+"main()
+{
+  string dp = \"System1:\"+$switchItem+\".Commands.TurnOn\";
+
+}" 0
+ "main(mapping event)
+{
+  switchBtn.turnOn();
+}" 0
+ 0 1 3 2 1 E 1 0 1 -176 -188 1 E 3 310 210
+310 329
+300 220
+ 1
+0
+LAYER, 1 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 2 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 3 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 4 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 5 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 6 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+LAYER, 7 
+2
+LANG:10001 0 
+LANG:10027 0 
+0
+0

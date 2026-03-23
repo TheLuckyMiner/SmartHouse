@@ -19,23 +19,35 @@ LAYER, 0
 2
 LANG:10001 0 
 LANG:10027 0 
-1 19 0 "" 1
+1 1 0 "" 2
 0
-1 21 1 "" 1
+1 3 1 "" 2
 0
-1 23 2 "" 1
+1 5 2 "" 2
 0
-1 25 3 "" 1
+1 7 3 "" 2
 0
-1 27 4 "" 1
+1 9 4 "" 2
 0
-1 29 5 "" 1
+1 11 5 "" 2
 0
 0
 LAYER, 1 
 2
 LANG:10001 0 
 LANG:10027 0 
+1 2 0 "" 1
+0
+1 4 1 "" 1
+0
+1 6 2 "" 1
+0
+1 8 3 "" 1
+0
+1 10 4 "" 1
+0
+1 12 5 "" 1
+0
 0
 LAYER, 2 
 2
@@ -69,38 +81,56 @@ LANG:10027 0
 0
 3 0 "PANEL_REF1" -1
 "layoutAlignment" "AlignNone"
+"UDP DisplayLampStand" "bool TRUE"
+"UDP DisplayShadows" "bool TRUE"
 "" ""
-"objects/Lamp.pnl" 222 0 T 24 0.8051146384479718 0 0.7898550724637681 62.78152557319228 28.42028985507244
-1
-"$dp""BathroomLamp1"
+"objects/Lamp.pnl" 222 0 T 24 0.4667362851573376 0 0.4925942028985509 346.1348347721155 230.2352173913043
+2
+"$lampDpName""BathroomLamp1"
+"$lightSensorName"""
 3 1 "PANEL_REF2" -1
 "layoutAlignment" "AlignNone"
+"UDP DisplayLampStand" "bool TRUE"
+"UDP DisplayShadows" "bool TRUE"
 "" ""
-"objects/Lamp.pnl" 452 -2.028985507246404 T 25 0.8148148148148148 0 0.7971014492753623 111.7037037037038 21.58832178113839
-1
-"$dp""BedroomLamp1"
+"objects/Lamp.pnl" 452 -2.028985507246404 T 25 0.4667362851573372 0 0.4925942028985509 479.879845446951 223.8457708464608
+2
+"$lampDpName""BedroomLamp1"
+"$lightSensorName""BedroomLightSensor"
 3 2 "PANEL_REF3" -1
 "layoutAlignment" "AlignNone"
+"UDP DisplayLampStand" "bool TRUE"
+"UDP DisplayShadows" "bool TRUE"
 "" ""
-"objects/Lamp.pnl" 622 -9.028985507246404 T 26 0.8148148148148148 0 0.7971014492753623 151.2222222222223 27.16803192606592
-1
-"$dp""BedroomLamp2"
+"objects/Lamp.pnl" 622 -9.028985507246404 T 26 0.4667362851573384 0 0.4925942028985507 551.8753666573838 227.2939302667506
+2
+"$lampDpName""BedroomLamp2"
+"$lightSensorName""BedroomLightSensor"
 3 3 "PANEL_REF4" -1
 "layoutAlignment" "AlignNone"
+"UDP DisplayLampStand" "bool TRUE"
+"UDP DisplayShadows" "bool TRUE"
 "" ""
-"objects/Lamp.pnl" 626.5370370370371 109 T 27 0.8148148148148148 0 0.7971014492753623 147.525377229081 50.11594202898549
-1
-"$dp""BedroomLamp3"
+"objects/Lamp.pnl" 626.5370370370371 109 T 27 0.4667362851573384 0 0.4925942028985507 581.2624660932162 303.307231884058
+2
+"$lampDpName""BedroomLamp3"
+"$lightSensorName""BedroomLightSensor"
 3 4 "PANEL_REF5" -1
 "layoutAlignment" "AlignNone"
+"UDP DisplayLampStand" "bool TRUE"
+"UDP DisplayShadows" "bool TRUE"
 "" ""
-"objects/Lamp.pnl" 252 318 T 28 0.8148148148148148 0 0.7971014492753623 74.66666666666671 86.52173913043477
-1
-"$dp""KitchenLamp1"
+"objects/Lamp.pnl" 252 318 T 28 0.4667362851573384 0 0.4925942028985509 376.4726933073423 395.1789927536232
+2
+"$lampDpName""KitchenLamp1"
+"$lightSensorName"""
 3 5 "PANEL_REF6" -1
 "layoutAlignment" "AlignNone"
+"UDP DisplayLampStand" "bool TRUE"
+"UDP DisplayShadows" "bool TRUE"
 "" ""
-"objects/Lamp.pnl" 550 380 T 29 0.8148148148148148 0 0.7971014492753623 129.388888888889 105.5217391304347
-1
-"$dp""LivingRoomLamp1"
+"objects/Lamp.pnl" 550 380 T 29 0.4667362851573385 0 0.4925942028985505 541.140432098765 426.212427536232
+2
+"$lampDpName""LivingRoomLamp1"
+"$lightSensorName""LivingRoomLightSensor"
 0
