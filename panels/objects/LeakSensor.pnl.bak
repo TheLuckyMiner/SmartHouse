@@ -105,17 +105,12 @@ LANG:10027 0
 "layoutAlignment" "AlignNone"
 "dashclr"N "_Transparent"
 "antiAliased" "1"
-"main()
+"// SimpleCtrlScriptStart {invalid}
+main()
 {
   EP_setBackColor();
 }
 
-/*
-  Входные данные: -
-  Выходные данные: -
-
-  Метод подписывается на изменеие цвета предупреждения о протечке.
-*/
 void EP_setBackColor()
 {
   dyn_errClass err;
@@ -134,16 +129,20 @@ void EP_setBackColor()
 
 }
 
-/*
-  Входные данные: -
-  Выходные данные: -
 
-  Метод метод меняет цвет элементу при возникновении протечки.
-*/
 void EP_setBackColorCB(string dpSource, string sNewColor)
 {
   setValue(\"\", \"backCol\", sNewColor);
 }
+
+// SimpleCtrlScript {EP_setBackColor}
+// DP {System1:BedroomLightSensor.Alarms.Status}
+// DPConfig {:_alert_hdl.._act_state_color}
+// DPType {string}
+// AlertHdl {TRUE}
+// DPEInvalid {}
+// DPEConfigInvalid {}
+// SimpleCtrlScriptEnd {EP_setBackColor}
 " 0
  E 0 1 3 1 1 E 0.1666666666666667 0 0.1666666666666667 30 15 1 E 140 270 80 80
  0 60 270 210 270 1
