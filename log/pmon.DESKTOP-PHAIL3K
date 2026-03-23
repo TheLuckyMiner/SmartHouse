@@ -539,3 +539,115 @@ WCCILpmon    (1), 2026.03.23 09:50:42.265, SYS,  INFO,       17/pmon, Stopping M
 WCCILpmon    (1), 2026.03.23 09:50:44.290, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
 WCCILpmon    (1), 2026.03.23 09:50:44.507, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
 WCCILpmon    (1), 2026.03.23 09:50:44.507, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 10:12:00.305, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.23 10:12:00.420, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2026.03.23 10:12:01.628, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.23 10:12:01.848, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.23 10:12:02.067, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.23 10:12:02.285, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.23 10:12:02.501, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.23 10:12:02.672, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.23 10:12:05.793, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2026.03.23 10:12:06.011, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ SmartHouse -pmonIndex 9 
+WCCILpmon    (1), 2026.03.23 10:12:16.466, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.23 10:12:16.689, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 11 
+WCCILpmon    (1), 2026.03.23 10:12:16.863, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.23 10:12:45.038, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.23 10:12:45.206, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.23 10:19:24.909, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.23 10:19:24.909, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:24.910, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:24.910, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:24.911, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:24.911, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:24.912, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:24.912, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:24.913, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:24.913, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:24.913, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:29.062, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:29.172, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:31.212, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:19:32.193, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.23 10:19:32.193, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.03.23 10:20:36.816, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.03.23 10:20:36.939, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2026.03.23 10:20:38.041, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.23 10:20:38.261, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.23 10:20:38.478, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.23 10:20:38.694, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.23 10:20:38.910, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.23 10:20:39.130, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.23 10:20:42.309, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2026.03.23 10:20:42.524, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ SmartHouse -pmonIndex 9 
+WCCILpmon    (1), 2026.03.23 10:20:53.108, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.23 10:20:53.327, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 11 
+WCCILpmon    (1), 2026.03.23 10:20:53.498, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.23 10:20:55.355, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.23 10:20:55.526, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.23 10:51:03.826, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.23 10:51:03.936, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:51:03.936, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:51:03.937, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:51:03.937, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:51:03.938, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:51:03.938, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:51:03.939, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:51:08.107, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:51:10.135, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 10:51:10.791, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.23 10:51:10.902, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2026.03.23 10:51:12.268, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.23 10:51:12.485, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.23 10:51:12.703, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.23 10:51:12.920, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.23 10:51:13.138, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.23 10:51:13.357, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.23 10:51:16.558, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2026.03.23 10:51:17.017, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ SmartHouse -pmonIndex 9 
+WCCILpmon    (1), 2026.03.23 10:51:28.679, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.23 10:51:28.918, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 11 
+WCCILpmon    (1), 2026.03.23 10:51:29.133, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.23 10:51:31.846, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.23 10:51:32.065, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.23 11:21:29.958, SYS,  SEVERE,     10/pmon, The central server manager WCCILevent(0) stopped! Restarting the project
+WCCILpmon    (1), 2026.03.23 11:21:30.067, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:30.067, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:30.068, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:30.068, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:30.069, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:30.069, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:30.069, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:34.241, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:36.258, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:36.799, SYS,  INFO,       14/pmon, Completely stopped the project - restarting it
+WCCILpmon    (1), 2026.03.23 11:21:36.879, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILdata.exe -PROJ SmartHouse -pmonIndex 1 
+WCCILpmon    (1), 2026.03.23 11:21:38.073, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 2 -num 0
+WCCILpmon    (1), 2026.03.23 11:21:38.290, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 3 -num 1
+WCCILpmon    (1), 2026.03.23 11:21:38.509, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 4 -num 2
+WCCILpmon    (1), 2026.03.23 11:21:38.725, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 5 -num 3
+WCCILpmon    (1), 2026.03.23 11:21:38.911, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 6 -num 4
+WCCILpmon    (1), 2026.03.23 11:21:39.127, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAvalarch.exe -PROJ SmartHouse -pmonIndex 7 -num 5
+WCCILpmon    (1), 2026.03.23 11:21:42.234, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILevent.exe -PROJ SmartHouse -pmonIndex 8 
+WCCILpmon    (1), 2026.03.23 11:21:42.449, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILproxy.exe -PROJ SmartHouse -pmonIndex 9 
+WCCILpmon    (1), 2026.03.23 11:21:50.334, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 10 -f pvss_scripts.lst
+WCCILpmon    (1), 2026.03.23 11:21:50.553, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCILsim.exe -PROJ SmartHouse -pmonIndex 11 
+WCCILpmon    (1), 2026.03.23 11:21:50.770, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOAui.exe -PROJ SmartHouse -pmonIndex 12 -m gedi
+WCCILpmon    (1), 2026.03.23 11:21:53.425, SYS,  INFO,        1, Manager Start, C:\Sybcom\Kaskad\3.18\bin\WCCOActrl.exe -PROJ SmartHouse -pmonIndex 13 -num 2 -f Simulate.lst
+WCCILpmon    (1), 2026.03.23 11:21:53.639, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILpmon    (1), 2026.03.23 11:21:56.647, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.03.23 11:21:56.647, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:56.648, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:56.648, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:56.649, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:56.650, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(5) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:56.650, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(4) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:56.650, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(3) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:56.651, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(2) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:56.651, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:21:56.652, SYS,  INFO,       17/pmon, Stopping Manager WCCOAvalarch(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:22:00.794, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:22:00.902, SYS,  INFO,       17/pmon, Stopping Manager WCCILdata(0) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:22:01.846, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILpmon    (1), 2026.03.23 11:22:02.391, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.03.23 11:22:02.391, SYS,  INFO,        2, Manager Stop

@@ -2,7 +2,7 @@ V 14
 2
 LANG:10001 0 
 LANG:10027 0 
-PANEL,-1 -1 1120 800 N "_3DFace" 0
+PANEL,-1 -1 1120 770 N "_3DFace" 0
 E E E E E 1 -1 -1 0  740 120
 ""0  1
 E E 5
@@ -156,40 +156,9 @@ LANG:10027 35 MS Shell Dlg 2,-1,13,5,50,0,0,0,0,0
 0  100 
 N {0,0,0} 0 0 1 0 1 150 1 5 5 1 2
 0
-13 16
-"PUSH_BUTTON1"
-""
-1 989.75 258 E E E 1 E 1 E N "_ButtonText" E N "_Button" E E
- E E
-13 0 0 0 0 0
-E E E
-8
-2
-LANG:10001 0 
-LANG:10027 0 
-
-1
-"layoutAlignment" "AlignNone"
-2
-LANG:10001 30 Noto Sans,-1,20,5,50,0,0,0,0,0
-LANG:10027 30 Noto Sans,-1,20,5,50,0,0,0,0,0
-0  987.75 252 1072 282
-
-T 
-2
-LANG:10001 6 On/Off
-LANG:10027 15 Вкл/Выкл
-"//Инициализация констант
-string DP_LAMP_SWITCH = \"System1:BathroomLamp1.Commands.Switch\";
-
-main(mapping event)
-{
-  bool lampSwitchValue;
-  dpGet(DP_LAMP_SWITCH, lampSwitchValue);
-  dpSet(DP_LAMP_SWITCH, !lampSwitchValue);
-}" 0
- E E E
 1 19 5 "" 2
+0
+1 28 6 "" 1
 0
 0
 LAYER, 1 
@@ -248,9 +217,16 @@ LANG:10027 0
 3 5 "PANEL_REF4" -1
 "layoutAlignment" "AlignNone"
 "UDP DisplayShadows" "bool TRUE"
+"UDP DisplayLampStand" "bool TRUE"
 "" ""
-"objects/Lamp.pnl" 959 412.0392720306513 T 14 0.7315789473684199 0 0.7583333333333331 280.7973684210536 83.19728607918265
+"objects/Lamp.pnl" 959 412.0392720306513 T 14 0.7315789473684199 0 0.7583333333333331 315.5473684210535 23.2243853767562
 2
 "$lampDpName""BathroomLamp1"
 "$lightSensorName"""
+3 6 "PANEL_REF6" -1
+"layoutAlignment" "AlignNone"
+"" ""
+"objects/Switcher.pnl" 789.2500000000001 44 T 15 0.4710937499999993 0 0.5294117647058825 629.9236328125008 177.2941176470588
+1
+"$switchItem""BathroomLamp1"
 0
